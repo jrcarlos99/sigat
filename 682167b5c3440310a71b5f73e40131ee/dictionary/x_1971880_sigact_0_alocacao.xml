@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d40c77f9c3080310a71b5f73e40131e6" label="Alocacao" max_length="40" name="x_1971880_sigact_0_alocacao" text_index="true" type="collection">
+        <element choice="3" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Suspensa" sequence="2" value="suspensa"/>
+                <element inactive_on_update="false" label="Ativa" sequence="0" value="ativa"/>
+                <element inactive_on_update="false" label="Encerrada" sequence="1" value="encerrada"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status Excecao" max_length="40" name="status_excecao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejeitada" sequence="2" value="rejeitada"/>
+                <element inactive_on_update="false" label="Pendente" sequence="0" value="pendente"/>
+                <element inactive_on_update="false" label="Aprovada" sequence="1" value="aprovada"/>
+            </choice>
+        </element>
+        <element label="Observacao" max_length="40" name="observacao" type="string"/>
+        <element label="Percentual Alocacao" mandatory="true" max_length="38" name="percentual_alocacao" type="decimal"/>
+        <element label="Data Fim" max_length="40" name="data_fim" type="glide_date"/>
+        <element label="Projeto" mandatory="true" max_length="32" name="projeto" reference="x_1971880_sigact_0_projeto" type="reference"/>
+        <element choice="3" label="Aproveitamento Especialidade" max_length="40" name="aproveitamento_especialidade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fora da Especialidade" sequence="2" value="fora_da_especialidade"/>
+                <element inactive_on_update="false" label="Alinhado" sequence="0" value="alinhado"/>
+                <element inactive_on_update="false" label="Parcial" sequence="1" value="parcial"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Colaborador" mandatory="true" max_length="32" name="colaborador" reference="x_1971880_sigact_0_colaborador" type="reference"/>
+        <element label="Data Inicio" mandatory="true" max_length="40" name="data_inicio" type="glide_date"/>
+        <index name="index">
+            <element name="colaborador"/>
+        </index>
+        <index name="index2">
+            <element name="projeto"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1971880_sigact_0_sigac_senioridade">active=true</condition>
+        <group/>
+        <name>SIGAC - x_1971880_sigact_0_sigac_senioridade</name>
+        <roles/>
+        <source_table>x_1971880_sigact_0_sigac_senioridade</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 19:28:51</sys_created_on>
+        <sys_id>22bf4046c3c80310a71b5f73e40131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIGAC - x_1971880_sigact_0_sigac_senioridade</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_search_source_22bf4046c3c80310a71b5f73e40131f6</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 19:28:51</sys_updated_on>
+    </sys_search_source>
+</record_update>

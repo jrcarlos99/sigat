@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=595218000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Calcula o aproveitamento de especialidade comparando papel e tecnologia do colaborador com o projeto</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>calcular_aproveitamento_especialidade</internal_name>
+        <label_cache>[{"name":"88330855-7e4e-4a1b-a581-784d9cb2504e.Record.tecnologia_esperada.nome","label":"2 - Look Up Record➛Projeto Record➛Tecnologia Esperada➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1971880_sigact_0_tecnologia","column_name":"nome","usedInstances":{"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"Created or Updated_1.current.projeto","label":"Trigger - Record Created or Updated➛Alocacao Record➛Projeto","reference":"x_1971880_sigact_0_projeto","reference_display":"Projeto","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_alocacao","column_name":"projeto","usedInstances":{"88330855-7e4e-4a1b-a581-784d9cb2504e":["conditions"]}},{"name":"4af6d7fa-8e78-455a-95fd-55f96c1cd88e.Record.papel","label":"1 - Look Up Record➛Colaborador Record➛Papel","reference":"","reference_display":"Papel","type":"choice","base_type":"choice","parent_table_name":"x_1971880_sigact_0_colaborador","column_name":"papel","choices":[{"used":false,"label":"Arquiteto","selected":false,"missing":false,"rawLabel":"Arquiteto","image":"","reference":false,"value":"arquiteto","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"Desenvolvedor","selected":false,"missing":false,"rawLabel":"Desenvolvedor","image":"","reference":false,"value":"desenvolvedor","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"UX Designer","selected":false,"missing":false,"rawLabel":"UX Designer","image":"","reference":false,"value":"ux_designer","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"QA","selected":false,"missing":false,"rawLabel":"QA","image":"","reference":false,"value":"qa","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"Scrum Master","selected":false,"missing":false,"rawLabel":"Scrum Master","image":"","reference":false,"value":"scrum_master","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"Analista de Dados","selected":false,"missing":false,"rawLabel":"Analista de Dados","image":"","reference":false,"value":"analista_de_dados","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}}],"usedInstances":{"cb989460-df41-44cd-8124-522236dd96cd":["condition"],"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"4af6d7fa-8e78-455a-95fd-55f96c1cd88e.Record.tecnologia_principal.nome","label":"1 - Look Up Record➛Colaborador Record➛Tecnologia Principal➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1971880_sigact_0_tecnologia","column_name":"nome","usedInstances":{"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"4af6d7fa-8e78-455a-95fd-55f96c1cd88e.Record.tecnologia_principal","label":"1 - Look Up Record➛Colaborador Record➛Tecnologia Principal","reference":"x_1971880_sigact_0_tecnologia","reference_display":"Tecnologia","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_colaborador","column_name":"tecnologia_principal","usedInstances":{}},{"name":"88330855-7e4e-4a1b-a581-784d9cb2504e.Record.papel_esperado","label":"2 - Look Up Record➛Projeto Record➛Papel Esperado","reference":"","reference_display":"Papel Esperado","type":"choice","base_type":"choice","parent_table_name":"x_1971880_sigact_0_projeto","column_name":"papel_esperado","choices":[{"used":false,"label":"Arquiteto","selected":false,"missing":false,"rawLabel":"Arquiteto","image":"","reference":false,"value":"arquiteto","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"Desenvolvedor","selected":false,"missing":false,"rawLabel":"Desenvolvedor","image":"","reference":false,"value":"desenvolvedor","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"UX Designer","selected":false,"missing":false,"rawLabel":"UX Designer","image":"","reference":false,"value":"ux_designer","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"QA","selected":false,"missing":false,"rawLabel":"QA","image":"","reference":false,"value":"qa","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"Scrum Master","selected":false,"missing":false,"rawLabel":"Scrum Master","image":"","reference":false,"value":"scrum_master","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"Analista de Dados","selected":false,"missing":false,"rawLabel":"Analista de Dados","image":"","reference":false,"value":"analista_de_dados","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}}],"usedInstances":{"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"Created or Updated_1.current.colaborador","label":"Trigger - Record Created or Updated➛Alocacao Record➛Colaborador","reference":"x_1971880_sigact_0_colaborador","reference_display":"Colaborador","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_alocacao","column_name":"colaborador","usedInstances":{"4af6d7fa-8e78-455a-95fd-55f96c1cd88e":["conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Alocacao Record","reference":"x_1971880_sigact_0_alocacao","reference_display":"Alocacao","type":"reference","base_type":"reference","usedInstances":{"be757542-468c-43a7-b8b5-5b730bc495ad":["record"],"d957423f-eb8d-4bd9-b7a3-39db9635aa15":["record"],"99216cf5-f315-4567-8cbb-13e773525a49":["record"]},"attributes":{}},{"name":"88330855-7e4e-4a1b-a581-784d9cb2504e.Record.tecnologia_esperada","label":"2 - Look Up Record➛Projeto Record➛Tecnologia Esperada","reference":"x_1971880_sigact_0_tecnologia","reference_display":"Tecnologia","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_projeto","column_name":"tecnologia_esperada","usedInstances":{}}]</label_cache>
+        <master_snapshot>11d395afc3f04350a71b5f73e4013109</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Calcular Aproveitamento Especialidade</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>44b15937c3140310a71b5f73e4013144</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:44:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f55fcd27c3f04350a71b5f73e40131e4</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Calcular Aproveitamento Especialidade</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_hub_flow_f55fcd27c3f04350a71b5f73e40131e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:08</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>d0fd243dc3058390a71b5f73e40131d1</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1971880_sigact_0_alocacao">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 21:02:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44b15937c3140310a71b5f73e4013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 21:02:06</sys_updated_on>
+        <table>x_1971880_sigact_0_alocacao</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>f55fcd27c3f04350a71b5f73e40131e4</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-24 20:05:08</sys_created_on>
+        <sys_id>73ed243dc3058390a71b5f73e4013138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:08</sys_updated_on>
+        <trigger display_value="">44b15937c3140310a71b5f73e4013144</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f55fcd27c3f04350a71b5f73e40131e4^sys_idNOT IN73ed243dc3058390a71b5f73e4013138"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f55fcd27c3f04350a71b5f73e40131e4^sys_idNOT INb95f0167c3f04350a71b5f73e4013103"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f55fcd27c3f04350a71b5f73e40131e4</id>
+        <name>Calcular Aproveitamento Especialidade</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:44:46</sys_created_on>
+        <sys_id>b95f0167c3f04350a71b5f73e4013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 22:44:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b95f0167c3f04350a71b5f73e4013103"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f55fcd27c3f04350a71b5f73e40131e4^sys_idNOT IN399f8967c3f04350a71b5f73e40131e1,7d9f8967c3f04350a71b5f73e4013133,7d9f8967c3f04350a71b5f73e40131d6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</model>
+        <model_id>f55fcd27c3f04350a71b5f73e40131e4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f55fcd27c3f04350a71b5f73e40131e4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:45:51</sys_created_on>
+        <sys_id>399f8967c3f04350a71b5f73e40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 22:45:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=399f8967c3f04350a71b5f73e40131e1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</model>
+        <model_id>f55fcd27c3f04350a71b5f73e40131e4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f55fcd27c3f04350a71b5f73e40131e4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:45:51</sys_created_on>
+        <sys_id>7d9f8967c3f04350a71b5f73e4013133</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7d9f8967c3f04350a71b5f73e4013133"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</model>
+        <model_id>f55fcd27c3f04350a71b5f73e40131e4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f55fcd27c3f04350a71b5f73e40131e4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:45:51</sys_created_on>
+        <sys_id>7d9f8967c3f04350a71b5f73e40131d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7d9f8967c3f04350a71b5f73e40131d6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f55fcd27c3f04350a71b5f73e40131e4^sys_idNOT INe19f8567c3f04350a71b5f73e401315f"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:45:50</sys_created_on>
+        <sys_id>e19f8567c3f04350a71b5f73e401315f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:32:52</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VZW3PiNhT+Kx4/tTO04wtgSJ9SQrqZyW6mwG4fMqlHlmXQ1MisLTuhO/nvPfIN41u4OFs2DwRLss45n77zHQk9fpNdZBFXvpIXyHKJ3JMp48RnyF1sNwSauWg2GVqLvjViNuKev5WvuB+Snuz43npB1hsXcRjsIDeARs+3iS9fqT05Qm5I5tvgzoaZ4P14mnROOe2G5xdTHRvqaKSYAV0izE3FRK6HEUYejLJpAPNvv6SDr3c9eEVd2ydMvnp86skb5MP0XJj+Vuqiwj52VKKORwrWNfhTFG3UV62hbqmarSOCFJiwjEXJX14DyS5Y8sIJs4md41BByyfIfmDutjDiJaD/wpwjRfQ6BDzGJMEqfzRTAJJmvPIoJg8bTj2WtCTeJZ2eG67Zp8RrAR1xUOjyDDpoCQOYj2yEo4znfjjzlfc8ywzeUhbHlHYKvN38CXHuUyvkJBAwO9QFwM0EkcAL/dj72XTyMLsx/7peTD5MZ+ZsOl/M7iaL6Y38Gsdlfg3FjImHqS9mEs5rvt63lLhi2Vi4tsCbnhxgn274NeY0yrj22tvxd+Ixm8aoVDiMs65gn8NZ9G0kVpRGGuOCxYzKf0//rFI2aTyOrYZi2LbaxFZsFdhajLzGNV4DQjG6Nt6mLc3E7SvK/0TdVIBOZe7as4l7s5tOhs7lErhM2SbkAqMMF9PbEF/gAe/JX67vJx+uP/0xnf+W/r+dPXzMvi8e4L1nxHhgcs9Etm0WUBcmIJa3UiDB5PVNvvshgxfMfPWqrI/hznG/pwGE+Qg5m2EaTwn9zn065SxkkgfLDB8SDn2AlEuZ9jl3a7RMV8KZE5dgXqCM8zkoPn2kQUDZsuB1bjTGoGIzNwfUk7KQEtvBmcafukz5KuhRCcxS6h+d9yrua4puDRVDZL0KXx1VMZQBcmxdUaxRIe+rzjR6yUuU6DD/j8v+IKagewDhysCmLivFHDiIPNE+87LQBTFSkZl045rakWuacK0klvpRapmTMWm+2edkW2gd7w+QHSF4wz5U/A7UPcf1nkGoT9A8C+F/lr4XMrssQmJOiTJpN0L6KcXv5w71z/F80u7A/ohLUr4d7BlxEdt2oHmarhJj2B8qIHW6ULnBeGxhpDmOMTSIqpY0b+dGrW8XrHVvcCyqI2mT7tXSJapj2RGKd4aDFfU72sHzdS+lY63qJX0/hr49rwgzwVXfdIWCVWRu6VKbZH3d5njFdLTL6nPzHFtjezAwDGzAeQby3OkTC6l9bYDGxlAnTinPK660uclrkHnHU06wDWLzDRrwOem6rMP6e5I1IJyL0nN8RWawU43fQYmRQlUUiyHFUuL50ieP/XK3GyfNCRS7+IDbVWk+xAuxsNL7umF5fFXZG4Dp36F9z7TYUzagcnGHphJJov1YzxUWpGlorOoNwmIM64Rl50yzmxe6lTgwL6LGDKvbUxxK86g2Wxo3AScQt0SO4u6gZfvSFShq56Bo7weKfvaWKcvAxpPiKc7+QIUr3kOcU72ETWJ6TlGybzwJOiQwIlFHSn9ZhIO/tZX4igCkLuyNwaAkrJ+r1cXaUXUlZ/D3dSTZbVdqGDRL6bbp8spTiQrdnnGJreOx3VSi+kbj3re5TpW6L7RYHZ0LUV1qtVas4+Ytz1lbswpE3efBgdWo06jrS9J5UdcWpbeiPr/ctJ3Qa7y4/EIinF4ky3BC+fAYLp01cJeXLSGjX0Ni4hViy+QiJTN0CzgThFdSMkRKhnRZANxntA3kciUC0oq8SH92hgbIEJboV1eWSUT8bSVW0SiFG1sUh+9cfLSW4pPdOgbchzeX272MxV1cKGnWGNJtoGBdVfXKRfKgeJG8z+VmDxsqjXZqpVnR+Aa2YD5dL07XJNa1/BpVWiOOVyToSbCo8SVGLHvUD3g8+le5w1MWJtXlqCtEjckUNeVho7C35EdUzqw6Ja/helTKi6KWt56nWsJXOwlf6yJ8/bTw+2eXsiw/a2tZil639evUcvX0H/TvLZXnJQAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f55fcd27c3f04350a71b5f73e40131e4^sys_idNOT IN3383d96fc3f04350a71b5f73e4013155,6fc191abc3f04350a71b5f73e4013121,73df8967c3f04350a71b5f73e40131f7,76101da7c3f04350a71b5f73e401315e,9d53d16fc3f04350a71b5f73e4013135"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>6ad40ff0-935d-4587-a103-2fee1c1d59c7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:03:11</sys_created_on>
+        <sys_id>3383d96fc3f04350a71b5f73e4013155</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:06:05</sys_updated_on>
+        <ui_id>99216cf5-f315-4567-8cbb-13e773525a49</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCXQdsBbBao0qWuldutLV1kX+6a15MSZ7bQwxH/fdeIAhaqjU1/QeML3y+ec3JPcL5mSbMxOUCbpKD0Tg3Qw6CdJf3iSzs4Gs7QvB4CYsi4rIEeqtCiMlXR+Bl2FwHI5sQgeZcfYzo9Shr887YnKWiz8akWlUrlSw+IudlBEPCktKc/G9w9dVoKl4R4tGy93Uoei0zBDTaU3LbxduH5RhrM0osoJF1dt8DJ2TmOm83VKGWoKcNKky3DusZBIQDLQDrssh4JYGrtgY28rChB/eV3oxbriSRW+IZrD3KnfdPNJEuoyJGYiirA+8ihQE86m4OGWJgtf2bVeRgl0jSYSM6i0n2zHmoLr0itTNC0eZrrtNrrKi6tGEbYesPU8KkcgsAw8A/KGVnb7ZF5uWpAXqqgliRS1EaDXJ/DeqlnlA5wlQ421xjmUpSoeeWnNs6qbCUree9R06GXavNCdTj0WPRABd49Uhd4Fxad1+A6sCiS+0RhqXnWZW7iJBuc2VEhD/qsKSBpikQKvVagl4PUmhGZhVenP6apnjMBX3bj/s9P3NkyMNgu1NXPjgTlPR1/S4TDhhJvI8IRDEEiA2V//803mYzY4AGRrg+/1w38bdHTCXuxyu7dz1SSiD04/zQfDY/JBpHH0Rvjb+if9d1+wW5tUb7zbWn0InFB5CEQNR1eiUEDEQOLPKkkGMjMWuITXqX1b/Pugj7noAK6tiy4UauneIN9aCHNi4JE3YuzYKCY7dzG5/qR8mpfSs6T+HZGj/psvy8MfsXL2+VsJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3383d96fc3f04350a71b5f73e4013155"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>cb989460-df41-44cd-8124-522236dd96cd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:55:32</sys_created_on>
+        <sys_id>6fc191abc3f04350a71b5f73e4013121</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:06:05</sys_updated_on>
+        <ui_id>be757542-468c-43a7-b8b5-5b730bc495ad</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTU/jMBD9K5XPUZW0pVt6Q1RIK7EgwS4XFlkTe0otOXHWdoBu1f++48Rpq4Kglbig7anzZb/3Mi+5XzEl2ZSNUKbZaTYWw2w4HKTpYDLK8vEwzwZyCIgZS1gJBVKnRWGspPgJdB0Sq9W5RfAoe8b2flUy/OVZX9TWYunXa2qVylUalndxgjJiobSkOpvePySsAkuHe7RsutorHYpOQ46aWm86ePtw/bIKsTSiLggXV13yMk7OYqX3fUYVGgpwsjRh+OKxlEhA5qAdJqyAklgau2RTb2tKEH95XerlpmOhSt8SLeDFqb908ygNfXMkZiKKsAl5FKhNz2fg4ZZOFr62G72MEuhaTSTOodb+fDfXNlxXXpmyHfGQ627a6Loor1pF2OaAnedROwKBVeAZkLe05rcL83zTgbxQZSNJpKiNAL2JwHur8toHOCuGGhuNC6gqVT7yypon1QwTlKL/qCnoz7V5pjudeiz7IALuPqkK/QvKz5r0HVgVSPygY2h4nTC3dOcanNtSIQ35nzogaYlFCrxRoZGAN5sQhoVVlT+jq54wAl8ncf/zk/c2TJxuF2rnzK0HXnh2+i2bTFJOuIkMTzkEgQSY1+t/tq0cZ4MDQHY2+Nk8/LdBRye8yl3uzvau2kL0wcmn+WDylXwQaXx5I3y0/ung3RfsziY1G+92Vh8CJ1QeAlHD0VUoFBAxkPi7TtOhpKBcgHzDCUfNHueVAxh1XrlQqKV7g2JnFCwItEfeUt4zSyz27mJx8+H4NMdk47T5fSHf/Dffj4d/TxbKKkEJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6fc191abc3f04350a71b5f73e4013121"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:47:05</sys_created_on>
+        <sys_id>73df8967c3f04350a71b5f73e40131f7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:06:05</sys_updated_on>
+        <ui_id>4af6d7fa-8e78-455a-95fd-55f96c1cd88e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VY32/jKBD+Vyw/pzk7v5z07dQq0kp7W2nb3Ze9FcIGN+gIeAG3TaP87zcYnPgSt4m1qdTq3sIwwDcz3zfg/FiHjISXIZlFs3w2G0+TKBoOo2gyGWY4TtPhJEujFI/CXijwkoKnwSmnMHzAvLTjJxTPkng6jZBm9zgzKEKZ5DiVChOpwJEwXXC8+u79r/4zmS0YJ4qK8PLHz15YYAWHGKrCy/Xe1KkoYXPKwfXOw9xDbVbFdoiqOWf73FwWfHETUhELJeqF9MlQQShgyDHXtBcusSDYSLXaWhTF5EbwnWHBhIEdQ+v8pNkznDuNrF9OIaqMurntEPk8OXN+jQ2+NarMTKm8a7aQLKPa5YPQHJfcXDVtzuGmMEwKt8SF7VZLXi7FF5eOcLtBXRawlBpA0MIGapH7MPLbhXz8WqOcM1HlxE9ymWG+HWFjFEtLY/GsQ8rpEjZCS1wUTNyjQskHVi0GLMv+PYdBP+fyEQ4F6og+kAeA9yGvuD8H+3Vl/o4Vs1H8BdtQS5mccWAIciXUslRVKh9QxktdTSgstNsr3PRCvdJXHGu9ixxSjn6VFrfLg48YuaTZJZlihfkTtnigPrhNrxbK+FUKznaUy6QgzKLQDbUAGsTI3yUsJuv1FZDGUBJIFXwriP2J4n5WKki16TdUtNkc6ug3duoouuMR16K7aobclgYvvwPb57YNvPzis8lvFEUfSYBw+PvTX3dFuRQckVVMXiUZ2fFJS2WQy2VDV4f66MzzEyDUPL+xzAzS1UuoPM1zRjlpu2XmdmLvlhn8P2+Zd0lyAESQqx4TnInqyQBA34r941epl8Z7PKvo1bhTrA3r7FADODAyeO6shBPg1Eq4hbODO4enBWLd7yvK7Pf62ugFMDybAIaD8whgvQ1zm8iWnNevRFvN2v/Z+uN9f6BgY0G8aRNYpzPjrmcONocCHnZScJNsbub6Bc6d+Tn5giJ7b9kCFrDUn4ecftEjI/fU7E6vvYg0j5j/0zbvGYfqQlXhvcHTNH716yhtPE1ZjpZQOVbAC1rRDMihEVYU5bIUBPm3845ItpI5U9p458NG85WCfkQgQZiBWdCg8g623h0v4uNx1Kn8lAd1IP40HUAgQRVIsA2kW9hdmtbojI/TczetOWa8qgZ8FhWNclKlqm/vtsZ1pJCvMOLErnYiqPisoH6/7bVJoLX9HcH6Ib6xz9+aMorT0QBPkmEcR1EckSSaJkk8naT5BCejfKdRhLTIoJvCzjlQBbZHNTXqOkeH/ce11K6N5gRUNQWvpbCf2oPEBBYW1DeoYR0H7htKKiWnWOx1lDu4J/6Ye/yer+N311U+xD9OJbvbz7Qzteb6rd4NJfsm2K+SfrIUm9JoMI1JdjFN4uRilJPJxYzg8QWepeNkSGg2ys/5FPj5L0Vfg0HQFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=73df8967c3f04350a71b5f73e40131f7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:48:07</sys_created_on>
+        <sys_id>76101da7c3f04350a71b5f73e401315e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:06:05</sys_updated_on>
+        <ui_id>88330855-7e4e-4a1b-a581-784d9cb2504e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcFgkMFOg2iybtpVsQlEjF3KVJlaKSOIb/e4ciJQu2YlutAyTYmzkckm9m3htS/rb2GfEvfTILZulsNp5GQTAcBsFkMkxwGMfDSRIHMR75PV/gJQVPjWNOYfiAeWHGTyicReF0GqCc3eNEowBlSv5LtQQnwvKM49VX5/t3PZEsGCeKCv/y2/een2EFm2uq/Mv1ztSp6DiOKQfXOwdvB61eZfUQlXPW9rG5zPtkJ6QiBkrQ8+mTpoJQwJBintOev8SCYC3VqrYoismN4FvDggkNO/rG+Slnz3DuNDB+KYWoEmrn6iFyObLm9BprfKtVkehCOddkIVlCc5sPQlNccH3VtFmHm0wzKewSG7ZdLXmxFJ9sOvx6g6okYClyAEEzE6hB7sJIbxfy8XOFcs5EmRM3yWWCeT3CWisWF9rgWfuU0yVshJY4y5i4N2x4YOViwLLs33MY9FMuH+FQoIzoA2kAeB/yivtzsF+X5q9YMRPFX7ANLAZAjANDkC1hLgtVpvIBJbzIywmFRW738jc9P1/lVxzn+TZySDn6URjcNg8uYmSTZpYkimX6T9jigbrgNr1KIOODFJxtKZdIQZhBkTdUAmgQI/8UsJis11dAGk2JJ5X3JSPmJwr7SaEg1brv1LPZ7OvnF3fpKLbjkVZiu2qG2ha+k92e7WPbBk524dlkNwqC9yQ8OPzt6a67kmwKjsgpJAdJRrZ8yqXSyOayoad9bXTm+QkQKp7fGGZ68eolVI7mKaOctN0uczOxc7sM/p+3y5skOQAiyFaPCc5E+VQAoK/F/vFB6sXhDs9KejXuEmPDebKvAexp6T13VsIJcCol3MLZ3p3F0wKx6vclZXZ7fWV0AhieTQDDwXkEsK7DrBPZkvPqdWiqWfk/G3+86w8UbCwIN20C63Rm2PXMwWZfwMNOCm6Szc5cv8C5Mz8jX1Bk7zVbwAKWuvOQ1S96ZOSe6u3plReR+hHz/9rmHeNQVagyvFd4koYHv4rixpOUpWgJlWMZvJwVTYAcOcKKolQWgiD3Zt4SyVQyZSrXznm/0XymoB/hSRCmpxfUK7292rvjRXw8jiqVH1KvCsSdlnsQiFcG4tWBdAu7S9ManfFxeu6mNceMl9WAz6GsUU6qlFQvNK4jhTzAiBO72omgwrOC+v221yaB1vZ3BOu7+LY+f2tKKI5HAzyJhmEYBGFAomAaReF0EqcTHI3SrUYRykUC3RR2ToEqsD2qqFHVOdjvP7aldm00J6CqKHgthfnMHkTaM7Cgvl4F6zhw11BiKTnFYqej3ME98cfc4Xd8Hb+5rvIu/mkq2N1upq2pNdev9W4o2BfBfhT0g6HYlAaDaUiSi2kURhejlEwuZgSPL/AsHkdDQpNRes6nwPefyI2VNMAVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=76101da7c3f04350a71b5f73e401315e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>39e88799-dca0-4bcd-a919-e0673e2f1af3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:02:12</sys_created_on>
+        <sys_id>9d53d16fc3f04350a71b5f73e4013135</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:06:05</sys_updated_on>
+        <ui_id>d957423f-eb8d-4bd9-b7a3-39db9635aa15</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW/iMBD9K8hnhBKgLOVWFSGt1G2ldreXbmUN9gCWnDhrO7Qs4r/vOHEA0aoFqRe0nPB8+b2XecnTminJRqyPMkkv04Hopb1eN0m6w346HfSmaVf2ADFlbZZDhlRpURgr6bwEXYbAen1tETzKlrGtX4UMf3naEaW1mPvNhkqlcoWG1WPsoIhYKC0pz0ZPz21WgKXhHi0brQ9Sx6LTMEVNpfcNvEO4flWEszSizAgXV03wJnaOY6b1fUwZagpw0qTN8NVjLpGAzEA7bLMMcmJp7IqNvC0pQPzlXa5X24qFyn1NNINXp/7Szf0k1M2QmIkowvbIo0B1eDYGDw80WfjSbvUySqCrNZE4g1L76/1YXXBXeGXyusXDVDfdRpdZflsrwrYD9p5H6QgEFoFnQF7Tmj0szMt9A3Ki8kqSSFEbAXp7Au+tmpY+wFkz1FhpnEFRqHzOC2uWqmomKFlnrunQmWnzQnc6Nc87IALuDqkKnQnFx1X4EawKJH7QGGretJlbuWsNzu2okIb8TxmQ1MQiBV6pUEnAq00IzcKqwl/RVUuMwDftuP/Ti482TFzuFmpv5s4Drzy9/JYOhwkn3ESGJxyCQALM2/W/2mVOs8ERIBsb/Kwe/vugoxPexG72e1u3dSL64OLLfDA8Jx9EGmdvhM/WP+l++ILd26Rq493e6kPghMpDIGo4ugKFAiIGEn+XSdKTtNYh8tYIp7Se5pQj+DROmSjU0r1DsLEJZoTZI68JH1glJluPMbn9bHyZX9JBUv3OyDX/zdfj+R/D4/VwPwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9d53d16fc3f04350a71b5f73e4013135"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f55fcd27c3f04350a71b5f73e40131e4^sys_idNOT IN13e2552fc3f04350a71b5f73e40131ef,d75015e7c3f04350a71b5f73e40131fd,f373596fc3f04350a71b5f73e4013142"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">78d315afc3f04350a71b5f73e40131d9</block>
+        <comment/>
+        <connected_to>cb989460-df41-44cd-8124-522236dd96cd</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:00:26</sys_created_on>
+        <sys_id>13e2552fc3f04350a71b5f73e40131ef</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:04</sys_updated_on>
+        <ui_id>39e88799-dca0-4bcd-a919-e0673e2f1af3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4PPseHPxOmt2FBgwLYObdHL2hm0RCfCZMmz5LaZkf8+yh9ttrbY1sNOvUWPIvneE830nu5s01lzoY+NERvlHX25XnhCOYx+956CGr0jj2nFhRVaFQOw8G5Adi7wGVomQBLChWkk7C4fBdhWSN7iVLuBlipYbL2j/reQ3TVYSChRUv65bYXaULrgdKpCqKI1i1gSL5M4DOM8jcplUkYxTwAhpntz4tuZ6psPA7J4VoPrR7iZO+mWO1pRuPDwzqLiSK0rkAYXXg2Kg9Xt7h5pEfipkg/AVihL5Tx3+c6IH1Q7zjJ3sULSyHAM3h+LybERZlstGJ42juCIWCjllMO07Gr1adThvMYKOmlnrwnpDNXDxpF2LCZK1flW357NDU+EGgROQakZvc98Aks2lJ1F4x4GJdZUqKihacicomn1jRiSiUsdbCQdgkrqW2rq5iYA5ogH5BEEJ4S/G+BLaIVT8ZHKUPJIswQjWDHMGJWzLUnYD7YU3ztHaBQ4SSlGN+iCYa1o7DH1ucGJ9X7xeEAPZrPvU6iWfFWBn+Mq99MsA3+dVdzPsmq9pGnieY7BGTJ6+aCBBuV+f9WFYcL7Ps+TJMyzzF9hin4KUelDlkf+Kk/5mpVxFqa/phZoSCNwvd9/PT37t94WmdJSbwSQ00Ix0YAMlK7xZXwOyk2kYKr2+Dt9Nekpk/7Dzoqe2llPbKvnF1X8h0XlPq2/3FNhGL4uqsNFJUwxLpxJ29D8xXvq2i2lsYMZ54YjE4aIXDjs/fx/6wI7GgDBDqFb3X5zEh6w/U/5y9KguQcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a8d315afc3f04350a71b5f73e40131d4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:49:14</sys_created_on>
+        <sys_id>d75015e7c3f04350a71b5f73e40131fd</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:04</sys_updated_on>
+        <ui_id>cb989460-df41-44cd-8124-522236dd96cd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K0PPibHjOE3yFjYKg22FtvRlK+Zauk7EZMmT5LRZyH/flT/S0GRsjD7uzTr365yrI++ZaXzdeHdvVs7JtWbLr48jJnXA6HvPNFTIlowbLaSXRrMR24JqArbfT6GciasSxnO8mo+nWQbjRVaKcZaVixlPuJjPMbpFbqyIaqhRHQ7fmjhOhUCHemvUFoWx1FJIVyvYPbx9Z76RSljshdVgSY9Hy5b7VyG/qzFXUKAiAnfeSr2mcinotICszJI44+lklk7ieDKfJsUsLZKJSAGnM8obCt+f7OnC6sIQgtzQnugHLpN4xPDZoxZI80pQDkesAi3AG7tjS28bAiyCuNFqd8zYSO2pGwu5z07+xNApjkNmiSSMYxc9HvN+zx3MN0ZyvKlbbi3ioVB9DTeqqfSXTkK4ISyhUX64IUIaR/2wDqQDjZ5TebcxT7fDwGupW4F9UBkO6ngCT2soGo8u3AYqrKhRXkFd03Ly2pqtbIuJSxWtFR2iUpknGhqcGgEPxCPaEUTXhH9o4QewMqj4TG0wGEC63HEr60FbO5wd2q3kP5rAp9PXK8m7ZVBCV7aiMVvsSR9G5y8ib4GXZ7FSUm9AmHNbn0TewpZlDGWyoMdw0ZaQXrLlu08tcm7OQcVvHJr8waE98lcWzbL/Dj11aKBZgJM8b/+71C6893+26GOwYjfCdR4SyKUjJvcB+zj820NgR7cu+Sn0ZOz3oOEFO/wCuiIr4iUGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fcd315afc3f04350a71b5f73e40131dc</block>
+        <comment/>
+        <connected_to>cb989460-df41-44cd-8124-522236dd96cd</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:02:55</sys_created_on>
+        <sys_id>f373596fc3f04350a71b5f73e4013142</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:04</sys_updated_on>
+        <ui_id>6ad40ff0-935d-4587-a103-2fee1c1d59c7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f55fcd27c3f04350a71b5f73e40131e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:45:51</sys_created_on>
+        <sys_id>3d9f8967c3f04350a71b5f73e40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 22:45:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f55fcd27c3f04350a71b5f73e40131e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:45:51</sys_created_on>
+        <sys_id>7d9f8967c3f04350a71b5f73e40131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 22:45:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f55fcd27c3f04350a71b5f73e40131e4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 22:45:51</sys_created_on>
+        <sys_id>f19f8967c3f04350a71b5f73e40131e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 22:45:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f55fcd27c3f04350a71b5f73e40131e4"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>Calcula o aproveitamento de especialidade comparando papel e tecnologia do colaborador com o projeto</description>
+        <flow_priority/>
+        <internal_name>calcular_aproveitamento_especialidade</internal_name>
+        <label_cache>[{"name":"88330855-7e4e-4a1b-a581-784d9cb2504e.Record.tecnologia_esperada.nome","label":"2 - Look Up Record➛Projeto Record➛Tecnologia Esperada➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1971880_sigact_0_tecnologia","column_name":"nome","usedInstances":{"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"Created or Updated_1.current.projeto","label":"Trigger - Record Created or Updated➛Alocacao Record➛Projeto","reference":"x_1971880_sigact_0_projeto","reference_display":"Projeto","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_alocacao","column_name":"projeto","usedInstances":{"88330855-7e4e-4a1b-a581-784d9cb2504e":["conditions"]}},{"name":"4af6d7fa-8e78-455a-95fd-55f96c1cd88e.Record.papel","label":"1 - Look Up Record➛Colaborador Record➛Papel","reference":"","reference_display":"Papel","type":"choice","base_type":"choice","parent_table_name":"x_1971880_sigact_0_colaborador","column_name":"papel","choices":[{"used":false,"label":"Arquiteto","selected":false,"missing":false,"rawLabel":"Arquiteto","image":"","reference":false,"value":"arquiteto","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"Desenvolvedor","selected":false,"missing":false,"rawLabel":"Desenvolvedor","image":"","reference":false,"value":"desenvolvedor","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"UX Designer","selected":false,"missing":false,"rawLabel":"UX Designer","image":"","reference":false,"value":"ux_designer","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"QA","selected":false,"missing":false,"rawLabel":"QA","image":"","reference":false,"value":"qa","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"Scrum Master","selected":false,"missing":false,"rawLabel":"Scrum Master","image":"","reference":false,"value":"scrum_master","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}},{"used":false,"label":"Analista de Dados","selected":false,"missing":false,"rawLabel":"Analista de Dados","image":"","reference":false,"value":"analista_de_dados","parameters":{"name":"x_1971880_sigact_0_colaborador","dependent_values":[""]}}],"usedInstances":{"cb989460-df41-44cd-8124-522236dd96cd":["condition"],"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"4af6d7fa-8e78-455a-95fd-55f96c1cd88e.Record.tecnologia_principal.nome","label":"1 - Look Up Record➛Colaborador Record➛Tecnologia Principal➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1971880_sigact_0_tecnologia","column_name":"nome","usedInstances":{"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"4af6d7fa-8e78-455a-95fd-55f96c1cd88e.Record.tecnologia_principal","label":"1 - Look Up Record➛Colaborador Record➛Tecnologia Principal","reference":"x_1971880_sigact_0_tecnologia","reference_display":"Tecnologia","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_colaborador","column_name":"tecnologia_principal","usedInstances":{}},{"name":"88330855-7e4e-4a1b-a581-784d9cb2504e.Record.papel_esperado","label":"2 - Look Up Record➛Projeto Record➛Papel Esperado","reference":"","reference_display":"Papel Esperado","type":"choice","base_type":"choice","parent_table_name":"x_1971880_sigact_0_projeto","column_name":"papel_esperado","choices":[{"used":false,"label":"Arquiteto","selected":false,"missing":false,"rawLabel":"Arquiteto","image":"","reference":false,"value":"arquiteto","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"Desenvolvedor","selected":false,"missing":false,"rawLabel":"Desenvolvedor","image":"","reference":false,"value":"desenvolvedor","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"UX Designer","selected":false,"missing":false,"rawLabel":"UX Designer","image":"","reference":false,"value":"ux_designer","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"QA","selected":false,"missing":false,"rawLabel":"QA","image":"","reference":false,"value":"qa","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"Scrum Master","selected":false,"missing":false,"rawLabel":"Scrum Master","image":"","reference":false,"value":"scrum_master","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}},{"used":false,"label":"Analista de Dados","selected":false,"missing":false,"rawLabel":"Analista de Dados","image":"","reference":false,"value":"analista_de_dados","parameters":{"name":"x_1971880_sigact_0_projeto","dependent_values":[""]}}],"usedInstances":{"39e88799-dca0-4bcd-a919-e0673e2f1af3":["condition"]}},{"name":"Created or Updated_1.current.colaborador","label":"Trigger - Record Created or Updated➛Alocacao Record➛Colaborador","reference":"x_1971880_sigact_0_colaborador","reference_display":"Colaborador","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_alocacao","column_name":"colaborador","usedInstances":{"4af6d7fa-8e78-455a-95fd-55f96c1cd88e":["conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Alocacao Record","reference":"x_1971880_sigact_0_alocacao","reference_display":"Alocacao","type":"reference","base_type":"reference","usedInstances":{"be757542-468c-43a7-b8b5-5b730bc495ad":["record"],"d957423f-eb8d-4bd9-b7a3-39db9635aa15":["record"],"99216cf5-f315-4567-8cbb-13e773525a49":["record"]},"attributes":{}},{"name":"88330855-7e4e-4a1b-a581-784d9cb2504e.Record.tecnologia_esperada","label":"2 - Look Up Record➛Projeto Record➛Tecnologia Esperada","reference":"x_1971880_sigact_0_tecnologia","reference_display":"Tecnologia","type":"reference","base_type":"reference","parent_table_name":"x_1971880_sigact_0_projeto","column_name":"tecnologia_esperada","usedInstances":{}}]</label_cache>
+        <master>true</master>
+        <name>Calcular Aproveitamento Especialidade</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Calcular Aproveitamento Especialidade">f55fcd27c3f04350a71b5f73e40131e4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11d395afc3f04350a71b5f73e4013109</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:07</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_variable_value action="delete_multiple" query="document_key=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=11d395afc3f04350a71b5f73e4013109^sys_idNOT IN19d395afc3f04350a71b5f73e4013130"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>11d395afc3f04350a71b5f73e4013109</id>
+        <name>Calcular Aproveitamento Especialidade</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:23</sys_created_on>
+        <sys_id>19d395afc3f04350a71b5f73e4013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=19d395afc3f04350a71b5f73e4013130"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=11d395afc3f04350a71b5f73e4013109^sys_idNOT IN99d395afc3f04350a71b5f73e4013132,d5d395afc3f04350a71b5f73e4013145,e9d395afc3f04350a71b5f73e40131a7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</model>
+        <model_id>11d395afc3f04350a71b5f73e4013109</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_11d395afc3f04350a71b5f73e4013109</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:23</sys_created_on>
+        <sys_id>99d395afc3f04350a71b5f73e4013132</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=99d395afc3f04350a71b5f73e4013132"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</model>
+        <model_id>11d395afc3f04350a71b5f73e4013109</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_11d395afc3f04350a71b5f73e4013109</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:23</sys_created_on>
+        <sys_id>d5d395afc3f04350a71b5f73e4013145</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d5d395afc3f04350a71b5f73e4013145"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</model>
+        <model_id>11d395afc3f04350a71b5f73e4013109</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_11d395afc3f04350a71b5f73e4013109</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>e9d395afc3f04350a71b5f73e40131a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e9d395afc3f04350a71b5f73e40131a7"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=11d395afc3f04350a71b5f73e4013109^sys_idNOT IN61d395afc3f04350a71b5f73e40131fa"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>61d395afc3f04350a71b5f73e40131fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:06</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=11d395afc3f04350a71b5f73e4013109^sys_idNOT IN25d395afc3f04350a71b5f73e40131f7,6dd395afc3f04350a71b5f73e40131e5,add395afc3f04350a71b5f73e40131e6,e1d395afc3f04350a71b5f73e40131f6,e9d395afc3f04350a71b5f73e40131e8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>6ad40ff0-935d-4587-a103-2fee1c1d59c7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>25d395afc3f04350a71b5f73e40131f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:24</sys_updated_on>
+        <ui_id>99216cf5-f315-4567-8cbb-13e773525a49</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPCCXQdsBbBao0qWuldutLV1kX+6a15MSZ7bQwxH/fdeIAhaqjU1/QeML3y+ec3JPcL5mSbMxOUCbpKD0Tg3Qw6CdJf3iSzs4Gs7QvB4CYsi4rIEeqtCiMlXR+Bl2FwHI5sQgeZcfYzo9Shr887YnKWiz8akWlUrlSw+IudlBEPCktKc/G9w9dVoKl4R4tGy93Uoei0zBDTaU3LbxduH5RhrM0osoJF1dt8DJ2TmOm83VKGWoKcNKky3DusZBIQDLQDrssh4JYGrtgY28rChB/eV3oxbriSRW+IZrD3KnfdPNJEuoyJGYiirA+8ihQE86m4OGWJgtf2bVeRgl0jSYSM6i0n2zHmoLr0itTNC0eZrrtNrrKi6tGEbYesPU8KkcgsAw8A/KGVnb7ZF5uWpAXqqgliRS1EaDXJ/DeqlnlA5wlQ421xjmUpSoeeWnNs6qbCUree9R06GXavNCdTj0WPRABd49Uhd4Fxad1+A6sCiS+0RhqXnWZW7iJBuc2VEhD/qsKSBpikQKvVagl4PUmhGZhVenP6apnjMBX3bj/s9P3NkyMNgu1NXPjgTlPR1/S4TDhhJvI8IRDEEiA2V//803mYzY4AGRrg+/1w38bdHTCXuxyu7dz1SSiD04/zQfDY/JBpHH0Rvjb+if9d1+wW5tUb7zbWn0InFB5CEQNR1eiUEDEQOLPKkkGMjMWuITXqX1b/Pugj7noAK6tiy4UauneIN9aCHNi4JE3YuzYKCY7dzG5/qR8mpfSs6T+HZGj/psvy8MfsXL2+VsJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=25d395afc3f04350a71b5f73e40131f7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>6dd395afc3f04350a71b5f73e40131e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:24</sys_updated_on>
+        <ui_id>4af6d7fa-8e78-455a-95fd-55f96c1cd88e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VY32/jKBD+Vyw/pzk7v5z07dQq0kp7W2nb3Ze9FcIGN+gIeAG3TaP87zcYnPgSt4m1qdTq3sIwwDcz3zfg/FiHjISXIZlFs3w2G0+TKBoOo2gyGWY4TtPhJEujFI/CXijwkoKnwSmnMHzAvLTjJxTPkng6jZBm9zgzKEKZ5DiVChOpwJEwXXC8+u79r/4zmS0YJ4qK8PLHz15YYAWHGKrCy/Xe1KkoYXPKwfXOw9xDbVbFdoiqOWf73FwWfHETUhELJeqF9MlQQShgyDHXtBcusSDYSLXaWhTF5EbwnWHBhIEdQ+v8pNkznDuNrF9OIaqMurntEPk8OXN+jQ2+NarMTKm8a7aQLKPa5YPQHJfcXDVtzuGmMEwKt8SF7VZLXi7FF5eOcLtBXRawlBpA0MIGapH7MPLbhXz8WqOcM1HlxE9ymWG+HWFjFEtLY/GsQ8rpEjZCS1wUTNyjQskHVi0GLMv+PYdBP+fyEQ4F6og+kAeA9yGvuD8H+3Vl/o4Vs1H8BdtQS5mccWAIciXUslRVKh9QxktdTSgstNsr3PRCvdJXHGu9ixxSjn6VFrfLg48YuaTZJZlihfkTtnigPrhNrxbK+FUKznaUy6QgzKLQDbUAGsTI3yUsJuv1FZDGUBJIFXwriP2J4n5WKki16TdUtNkc6ug3duoouuMR16K7aobclgYvvwPb57YNvPzis8lvFEUfSYBw+PvTX3dFuRQckVVMXiUZ2fFJS2WQy2VDV4f66MzzEyDUPL+xzAzS1UuoPM1zRjlpu2XmdmLvlhn8P2+Zd0lyAESQqx4TnInqyQBA34r941epl8Z7PKvo1bhTrA3r7FADODAyeO6shBPg1Eq4hbODO4enBWLd7yvK7Pf62ugFMDybAIaD8whgvQ1zm8iWnNevRFvN2v/Z+uN9f6BgY0G8aRNYpzPjrmcONocCHnZScJNsbub6Bc6d+Tn5giJ7b9kCFrDUn4ecftEjI/fU7E6vvYg0j5j/0zbvGYfqQlXhvcHTNH716yhtPE1ZjpZQOVbAC1rRDMihEVYU5bIUBPm3845ItpI5U9p458NG85WCfkQgQZiBWdCg8g623h0v4uNx1Kn8lAd1IP40HUAgQRVIsA2kW9hdmtbojI/TczetOWa8qgZ8FhWNclKlqm/vtsZ1pJCvMOLErnYiqPisoH6/7bVJoLX9HcH6Ib6xz9+aMorT0QBPkmEcR1EckSSaJkk8naT5BCejfKdRhLTIoJvCzjlQBbZHNTXqOkeH/ce11K6N5gRUNQWvpbCf2oPEBBYW1DeoYR0H7htKKiWnWOx1lDu4J/6Ye/yer+N311U+xD9OJbvbz7Qzteb6rd4NJfsm2K+SfrIUm9JoMI1JdjFN4uRilJPJxYzg8QWepeNkSGg2ys/5FPj5L0Vfg0HQFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6dd395afc3f04350a71b5f73e40131e5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>add395afc3f04350a71b5f73e40131e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:24</sys_updated_on>
+        <ui_id>88330855-7e4e-4a1b-a581-784d9cb2504e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcFgkMFOg2iybtpVsQlEjF3KVJlaKSOIb/e4ciJQu2YlutAyTYmzkckm9m3htS/rb2GfEvfTILZulsNp5GQTAcBsFkMkxwGMfDSRIHMR75PV/gJQVPjWNOYfiAeWHGTyicReF0GqCc3eNEowBlSv5LtQQnwvKM49VX5/t3PZEsGCeKCv/y2/een2EFm2uq/Mv1ztSp6DiOKQfXOwdvB61eZfUQlXPW9rG5zPtkJ6QiBkrQ8+mTpoJQwJBintOev8SCYC3VqrYoismN4FvDggkNO/rG+Slnz3DuNDB+KYWoEmrn6iFyObLm9BprfKtVkehCOddkIVlCc5sPQlNccH3VtFmHm0wzKewSG7ZdLXmxFJ9sOvx6g6okYClyAEEzE6hB7sJIbxfy8XOFcs5EmRM3yWWCeT3CWisWF9rgWfuU0yVshJY4y5i4N2x4YOViwLLs33MY9FMuH+FQoIzoA2kAeB/yivtzsF+X5q9YMRPFX7ANLAZAjANDkC1hLgtVpvIBJbzIywmFRW738jc9P1/lVxzn+TZySDn6URjcNg8uYmSTZpYkimX6T9jigbrgNr1KIOODFJxtKZdIQZhBkTdUAmgQI/8UsJis11dAGk2JJ5X3JSPmJwr7SaEg1brv1LPZ7OvnF3fpKLbjkVZiu2qG2ha+k92e7WPbBk524dlkNwqC9yQ8OPzt6a67kmwKjsgpJAdJRrZ8yqXSyOayoad9bXTm+QkQKp7fGGZ68eolVI7mKaOctN0uczOxc7sM/p+3y5skOQAiyFaPCc5E+VQAoK/F/vFB6sXhDs9KejXuEmPDebKvAexp6T13VsIJcCol3MLZ3p3F0wKx6vclZXZ7fWV0AhieTQDDwXkEsK7DrBPZkvPqdWiqWfk/G3+86w8UbCwIN20C63Rm2PXMwWZfwMNOCm6Szc5cv8C5Mz8jX1Bk7zVbwAKWuvOQ1S96ZOSe6u3plReR+hHz/9rmHeNQVagyvFd4koYHv4rixpOUpWgJlWMZvJwVTYAcOcKKolQWgiD3Zt4SyVQyZSrXznm/0XymoB/hSRCmpxfUK7292rvjRXw8jiqVH1KvCsSdlnsQiFcG4tWBdAu7S9ManfFxeu6mNceMl9WAz6GsUU6qlFQvNK4jhTzAiBO72omgwrOC+v221yaB1vZ3BOu7+LY+f2tKKI5HAzyJhmEYBGFAomAaReF0EqcTHI3SrUYRykUC3RR2ToEqsD2qqFHVOdjvP7aldm00J6CqKHgthfnMHkTaM7Cgvl4F6zhw11BiKTnFYqej3ME98cfc4Xd8Hb+5rvIu/mkq2N1upq2pNdev9W4o2BfBfhT0g6HYlAaDaUiSi2kURhejlEwuZgSPL/AsHkdDQpNRes6nwPefyI2VNMAVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=add395afc3f04350a71b5f73e40131e6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>39e88799-dca0-4bcd-a919-e0673e2f1af3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>e1d395afc3f04350a71b5f73e40131f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:24</sys_updated_on>
+        <ui_id>d957423f-eb8d-4bd9-b7a3-39db9635aa15</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW/iMBD9K8hnhBKgLOVWFSGt1G2ldreXbmUN9gCWnDhrO7Qs4r/vOHEA0aoFqRe0nPB8+b2XecnTminJRqyPMkkv04Hopb1eN0m6w346HfSmaVf2ADFlbZZDhlRpURgr6bwEXYbAen1tETzKlrGtX4UMf3naEaW1mPvNhkqlcoWG1WPsoIhYKC0pz0ZPz21WgKXhHi0brQ9Sx6LTMEVNpfcNvEO4flWEszSizAgXV03wJnaOY6b1fUwZagpw0qTN8NVjLpGAzEA7bLMMcmJp7IqNvC0pQPzlXa5X24qFyn1NNINXp/7Szf0k1M2QmIkowvbIo0B1eDYGDw80WfjSbvUySqCrNZE4g1L76/1YXXBXeGXyusXDVDfdRpdZflsrwrYD9p5H6QgEFoFnQF7Tmj0szMt9A3Ki8kqSSFEbAXp7Au+tmpY+wFkz1FhpnEFRqHzOC2uWqmomKFlnrunQmWnzQnc6Nc87IALuDqkKnQnFx1X4EawKJH7QGGretJlbuWsNzu2okIb8TxmQ1MQiBV6pUEnAq00IzcKqwl/RVUuMwDftuP/Ti482TFzuFmpv5s4Drzy9/JYOhwkn3ESGJxyCQALM2/W/2mVOs8ERIBsb/Kwe/vugoxPexG72e1u3dSL64OLLfDA8Jx9EGmdvhM/WP+l++ILd26Rq493e6kPghMpDIGo4ugKFAiIGEn+XSdKTtNYh8tYIp7Se5pQj+DROmSjU0r1DsLEJZoTZI68JH1glJluPMbn9bHyZX9JBUv3OyDX/zdfj+R/D4/VwPwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e1d395afc3f04350a71b5f73e40131f6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>cb989460-df41-44cd-8124-522236dd96cd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>e9d395afc3f04350a71b5f73e40131e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:24</sys_updated_on>
+        <ui_id>be757542-468c-43a7-b8b5-5b730bc495ad</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTU/jMBD9K5XPUZW0pVt6Q1RIK7EgwS4XFlkTe0otOXHWdoBu1f++48Rpq4Kglbig7anzZb/3Mi+5XzEl2ZSNUKbZaTYWw2w4HKTpYDLK8vEwzwZyCIgZS1gJBVKnRWGspPgJdB0Sq9W5RfAoe8b2flUy/OVZX9TWYunXa2qVylUalndxgjJiobSkOpvePySsAkuHe7RsutorHYpOQ46aWm86ePtw/bIKsTSiLggXV13yMk7OYqX3fUYVGgpwsjRh+OKxlEhA5qAdJqyAklgau2RTb2tKEH95XerlpmOhSt8SLeDFqb908ygNfXMkZiKKsAl5FKhNz2fg4ZZOFr62G72MEuhaTSTOodb+fDfXNlxXXpmyHfGQ627a6Loor1pF2OaAnedROwKBVeAZkLe05rcL83zTgbxQZSNJpKiNAL2JwHur8toHOCuGGhuNC6gqVT7yypon1QwTlKL/qCnoz7V5pjudeiz7IALuPqkK/QvKz5r0HVgVSPygY2h4nTC3dOcanNtSIQ35nzogaYlFCrxRoZGAN5sQhoVVlT+jq54wAl8ncf/zk/c2TJxuF2rnzK0HXnh2+i2bTFJOuIkMTzkEgQSY1+t/tq0cZ4MDQHY2+Nk8/LdBRye8yl3uzvau2kL0wcmn+WDylXwQaXx5I3y0/ung3RfsziY1G+92Vh8CJ1QeAlHD0VUoFBAxkPi7TtOhpKBcgHzDCUfNHueVAxh1XrlQqKV7g2JnFCwItEfeUt4zSyz27mJx8+H4NMdk47T5fSHf/Dffj4d/TxbKKkEJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e9d395afc3f04350a71b5f73e40131e8"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=11d395afc3f04350a71b5f73e4013109^sys_idNOT IN29d395afc3f04350a71b5f73e40131df,61d395afc3f04350a71b5f73e40131e4,add395afc3f04350a71b5f73e40131e1"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a8d315afc3f04350a71b5f73e40131d4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>29d395afc3f04350a71b5f73e40131df</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:07</sys_updated_on>
+        <ui_id>cb989460-df41-44cd-8124-522236dd96cd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW8aMRD9K5XPsFo+lgA3RBSpUttISZRLG60GewxWjb21vRCK+O8d7weggtRGzbG39Zvx+L23z7t7ZstQlME/2Zn3amnY9OtLhykTMXreMwNrZFPGrREqKGtYh21AlxHb74cgR+JGQneMN+PuMMugO8mk6GaZnIx4j4vxGJMH5NaJpIAC9eHwrUzTgRDo0Wys3qCwjkYK5QsNu+f3n8xXSguHjbACHOkJ6Nh0/1tJCTp4ApnMemnGB/3RoJ+m/fGwtxgNFr2+GAAORzRQwwI1tc7PHLliUtgVEfLBKbNs1p+arY8tSOwjlX7aYfga0AgkEhK0xw5bgxEQrNuxaXAlAQ5B3Bu9O3aslAk0jcXeV69+YpyUprFTIuniWFePy7yxuYblLQQgKiUPpWta+coqjr52RKCEUof5OVY33BeVympLgIVud1tdrs2X2gx2HNC+VUJKTySwiEoj90aIfFzZ7UPL8k6ZypWmqC0HfVxBIO8WZYh89gw1rmlQvoaiIEfzwtmNqjYTl3Wy1LRIpLZbOjSmOwEeiSdkLCR3hN9W8DM4FVV8pjEYQ6N87rlTRautOpwdOszv/FyD9yeNZG7+o4wMa8WNtry2J26pBs3o4A02Mg6dy3uVV8Dpcs20MisQ9vJynFXeFm6ZguxN6PJcDTcMroX7Q53Zy4i3fN+S894fct4gfxX0LPuf83/OeaS5AK94Xn3xaVz81Lxj0F9ioOtDj2Zz5YnbU8Q+tv+ZWNhRohQ/h7bWfY+qTtjhF7wN5EixBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fcd315afc3f04350a71b5f73e40131dc</block>
+        <comment/>
+        <connected_to>cb989460-df41-44cd-8124-522236dd96cd</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>61d395afc3f04350a71b5f73e40131e4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:07</sys_updated_on>
+        <ui_id>6ad40ff0-935d-4587-a103-2fee1c1d59c7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">78d315afc3f04350a71b5f73e40131d9</block>
+        <comment/>
+        <connected_to>cb989460-df41-44cd-8124-522236dd96cd</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calcular Aproveitamento Especialidade">11d395afc3f04350a71b5f73e4013109</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>add395afc3f04350a71b5f73e40131e1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:07</sys_updated_on>
+        <ui_id>39e88799-dca0-4bcd-a919-e0673e2f1af3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTU/cMBD9K5XPSZTP3Sw3BEKqREsFqJeWRhPb2bXq2GnsANto/3vH+Vi2haql5cgtfuOZee9lMumJ7mzTWXOtj40Ra0WOPt14RCiH4XNPFNScHBGqFRNWaFUMgEduQXYu8AFaKkAiwoRpJGw/PgrQjZCs5VPtBlqsYHlLjvpfQoJhXhVCFa1oRJN4kcRhGOdpVC6SMopZAhxiLCih5BKvnsyk3pwPiPdbtnbbONzYVqj1dD6fqlzNoG6ZYxWFHuH3livGkU8F0nCP1KAYWN1u90jLgV0o+QBshLJYjrjL90Z8x4ZxlrmLFUeJlI/B/bGYDBvh6hQsIJWO2q6drtKNFpSb0RzGK+ikPTnExgsXjZM6plgo5ZytZVer96MjZF9gfj+IdAZJ8MYpddQnHdXVRt9dzizPhBpcmYJSU3yn8wkseld21vHpCZe8xkJFDU2DjhZNq2/FkIxc6mAt8RBUUt9hUzdrAVBHPEBjIThD/HSAP0IrnIp3WAaTR5olGEGLYS6xHNrEyc4jZmtOJBjzIBLdLb51juIoeRJXjP64FNqKxh5j51s+6dh5j8f8YML7PoVqwZYV+Dlf5n6aZeCvsor5WVatFjipLM95cMkpDlDQQMPlbve5C8OE9X2eJ0mYZ5m/5Cn3U4hKH7I88pd5yla0jLMw/Tm14AZVA9O73ZeLy+f1tpwqLfVaAHovFBUNyEDpmv8bn4NyEymYqj3+2l9NesqkF9180VOb74md98x1F/9h3blv7S+3XRiGr+vuv9edMMW4pCZtQ/MX3HY3brWNPfdeU2GQ2rXD3s7/fhfY4nAJegjd6farE/WA7X4AcMptGkUIAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=11d395afc3f04350a71b5f73e4013109"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_11d395afc3f04350a71b5f73e4013109</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>69d395afc3f04350a71b5f73e40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_11d395afc3f04350a71b5f73e4013109</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:23</sys_created_on>
+        <sys_id>d9d395afc3f04350a71b5f73e4013141</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_11d395afc3f04350a71b5f73e4013109</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:24</sys_created_on>
+        <sys_id>edd395afc3f04350a71b5f73e40131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 23:04:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_11d395afc3f04350a71b5f73e4013109"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_11d395afc3f04350a71b5f73e4013109"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>f55fcd27c3f04350a71b5f73e40131e4</sys_id>
+        <latest_snapshot>11d395afc3f04350a71b5f73e4013109</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch6-01-16-2026_02-02-2026_1554.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f55fcd27c3f04350a71b5f73e40131e4^sys_idNOT IN0ed3d5afc3f04350a71b5f73e4013154"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"0ed3d5afc3f04350a71b5f73e4013154","name":"plan","plan_signature":null}}</plan>
+        <plan_id>f55fcd27c3f04350a71b5f73e40131e4</plan_id>
+        <snapshot>7d2e2c3dc3058390a71b5f73e401312a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 23:04:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ed3d5afc3f04350a71b5f73e4013154</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-24 20:05:08</sys_updated_on>
+        <trigger display_value="">44b15937c3140310a71b5f73e4013144</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f55fcd27c3f04350a71b5f73e40131e4"/>
+</record_update>

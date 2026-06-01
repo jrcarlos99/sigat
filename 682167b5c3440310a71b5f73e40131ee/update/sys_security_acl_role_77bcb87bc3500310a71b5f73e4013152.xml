@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 19:30:36</sys_created_on>
+        <sys_id>77bcb87bc3500310a71b5f73e4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1971880.sigac.x_1971880_sigact_0.sigac_auditor</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_security_acl display_value="x.1971880.sigac">63bcb0b7c3500310a71b5f73e401311b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_77bcb87bc3500310a71b5f73e4013152</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 19:30:36</sys_updated_on>
+        <sys_user_role display_value="x_1971880_sigact_0.sigac_auditor" name="x_1971880_sigact_0.sigac_auditor">8aa9e44ac38c0310a71b5f73e40131ce</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

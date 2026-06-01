@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="SIGACTeste_menu_config">7023751cc3b80b10a71b5f73e401311d</configuration>
+        <description/>
+        <order>200</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7823751cc3b80b10a71b5f73e4013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Colaborador</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_list_category_7823751cc3b80b10a71b5f73e4013139</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:54</sys_updated_on>
+        <title>Colaborador</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_ux_list_category_7823751cc3b80b10a71b5f73e4013139</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="SIGACTeste_menu_config">7023751cc3b80b10a71b5f73e401311d</configuration><description/><order>200</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-07 23:00:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7823751cc3b80b10a71b5f73e4013139</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Colaborador</sys_name><sys_overrides/><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_update_name>sys_ux_list_category_7823751cc3b80b10a71b5f73e4013139</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-07 23:00:54</sys_updated_on><title>Colaborador</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>1919664061</payload_hash>
+        <record_name>Colaborador</record_name>
+        <reverted_from/>
+        <source>c921e7b5c3440310a71b5f73e4013116</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:54</sys_created_on>
+        <sys_id>f423751cc3b80b10a71b5f73e401313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e04ac34510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:54</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>b423751cfcb80b10f8821bdc3ed5213b</update_guid>
+        <update_guid_history>b423751cfcb80b10f8821bdc3ed5213b:1919664061</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:35:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>0d14efb518234bbab3b691954439f504</sys_id>
+        <sys_metadata>7823751cc3b80b10a71b5f73e4013139</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Colaborador</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_7823751cc3b80b10a71b5f73e4013139</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_7823751cc3b80b10a71b5f73e4013139">f423751cc3b80b10a71b5f73e401313c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:35:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

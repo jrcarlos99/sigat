@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="SIGACTeste">a3480806c5880310be33247c23be2b7b</page>
+        <required_translations>[ {
+  "message" : "New Alocacao",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Colaborador",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Complexidade",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Projeto",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Senioridade",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 18:56:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ef480806908803103fb2764f27b9d268</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_page_property_ef480806908803103fb2764f27b9d268</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 18:56:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1971880_sigact_0.a3480806c5880310be33247c23be2b7b.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Alocacao"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_alocacao","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_alocacao","canCreate":true}}},{"label":{"translatable":true,"message":"New Colaborador"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_colaborador","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_colaborador","canCreate":true}}},{"label":{"translatable":true,"message":"New Complexidade"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_complexidade","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_complexidade","canCreate":true}}},{"label":{"translatable":true,"message":"New Projeto"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_projeto","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_projeto","canCreate":true}}},{"label":{"translatable":true,"message":"New Senioridade"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_sigac_senioridade","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_sigac_senioridade","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=ef480806908803103fb2764f27b9d268"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_ux_page_property_ef480806908803103fb2764f27b9d268</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="SIGACTeste">a3480806c5880310be33247c23be2b7b</page><required_translations>[ {
+  "message" : "New Alocacao",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Colaborador",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Complexidade",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Projeto",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Senioridade",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>aes.creator</sys_created_by><sys_created_on>2026-04-05 18:56:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>ef480806908803103fb2764f27b9d268</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_update_name>sys_ux_page_property_ef480806908803103fb2764f27b9d268</sys_update_name><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2026-04-05 18:56:30</sys_updated_on><type>json</type><unique_name>x_1971880_sigact_0.a3480806c5880310be33247c23be2b7b.root.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Alocacao"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_alocacao","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_alocacao","canCreate":true}}},{"label":{"translatable":true,"message":"New Colaborador"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_colaborador","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_colaborador","canCreate":true}}},{"label":{"translatable":true,"message":"New Complexidade"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_complexidade","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_complexidade","canCreate":true}}},{"label":{"translatable":true,"message":"New Projeto"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_projeto","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_projeto","canCreate":true}}},{"label":{"translatable":true,"message":"New Senioridade"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_sigac_senioridade","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_sigac_senioridade","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=ef480806908803103fb2764f27b9d268"/></record_update>]]></payload>
+        <payload_hash>-35821605</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>c921e7b5c3440310a71b5f73e4013116</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 18:56:30</sys_created_on>
+        <sys_id>7c58c806c3880310a71b5f73e40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d5f00f21e0000001</sys_recorded_at>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 18:56:30</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>3c58c806fa88031013001079dfe8c1c4</update_guid>
+        <update_guid_history>3c58c806fa88031013001079dfe8c1c4:-35821605,b058c80601880310eaf0c98a393d08c2:-1117144822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 19:27:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>256aaa20cfd34d3c8f328f50f9899ac4</sys_id>
+        <sys_metadata>ef480806908803103fb2764f27b9d268</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_ef480806908803103fb2764f27b9d268</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_ef480806908803103fb2764f27b9d268">7c58c806c3880310a71b5f73e40131c5</sys_update_version>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 19:27:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

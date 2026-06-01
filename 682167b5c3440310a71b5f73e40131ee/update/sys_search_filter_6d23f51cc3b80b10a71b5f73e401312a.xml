@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Senioridade">cd58cc06c3880310a71b5f73e4013150</ais_search_source>
+        <label>Senioridade</label>
+        <name>Senioridade</name>
+        <order>500</order>
+        <search_context_config display_value="SIGACTeste AI Search Configuration">a713b11c9ab80b1072a00838c371f5c2</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:57</sys_created_on>
+        <sys_id>6d23f51cc3b80b10a71b5f73e401312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Senioridade</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_search_filter_6d23f51cc3b80b10a71b5f73e401312a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:57</sys_updated_on>
+    </sys_search_filter>
+</record_update>

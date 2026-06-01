@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_1971880_sigact_0.Audience for app sigacteste</api_name>
+        <description/>
+        <name>Audience for app sigacteste</name>
+        <role_names/>
+        <roles>c521e7b5c3440310a71b5f73e401311a,e2676c06c38c0310a71b5f73e401317f,8aa9e44ac38c0310a71b5f73e40131ce,dc99244ac38c0310a71b5f73e401314c,918860c6c38c0310a71b5f73e401318f,9979ec0ac38c0310a71b5f73e40131b4,0d21e7b5c3440310a71b5f73e4013124</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c23751cc3b80b10a71b5f73e4013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app sigacteste</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_applicability_6c23751cc3b80b10a71b5f73e4013100</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:54</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_ux_applicability_6c23751cc3b80b10a71b5f73e4013100</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_1971880_sigact_0.Audience for app sigacteste</api_name><description/><name>Audience for app sigacteste</name><role_names/><roles>c521e7b5c3440310a71b5f73e401311a,e2676c06c38c0310a71b5f73e401317f,8aa9e44ac38c0310a71b5f73e40131ce,dc99244ac38c0310a71b5f73e401314c,918860c6c38c0310a71b5f73e401318f,9979ec0ac38c0310a71b5f73e40131b4,0d21e7b5c3440310a71b5f73e4013124</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-07 23:00:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6c23751cc3b80b10a71b5f73e4013100</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for app sigacteste</sys_name><sys_overrides/><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_update_name>sys_ux_applicability_6c23751cc3b80b10a71b5f73e4013100</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-07 23:00:54</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>1040077508</payload_hash>
+        <record_name>Audience for app sigacteste</record_name>
+        <reverted_from/>
+        <source>c921e7b5c3440310a71b5f73e4013116</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:54</sys_created_on>
+        <sys_id>3823751cc3b80b10a71b5f73e4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e04ac33040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:54</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>b423751c2db80b102c7bf63c95246807</update_guid>
+        <update_guid_history>b423751c2db80b102c7bf63c95246807:1040077508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:35:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>389bb4f763b74f4399a597bb0ee17819</sys_id>
+        <sys_metadata>6c23751cc3b80b10a71b5f73e4013100</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app sigacteste</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_6c23751cc3b80b10a71b5f73e4013100</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_6c23751cc3b80b10a71b5f73e4013100">3823751cc3b80b10a71b5f73e4013108</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:35:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="de584446c3880310a71b5f73e401315a" sys_domain="global" table="x_1971880_sigact_0_colaborador" version="3" view="workspace-sigacteste-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>7ec005aec3744b10a71b5f73e401311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nome</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>fac005aec3744b10a71b5f73e401311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>7ac005aec3744b10a71b5f73e4013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>senioridade</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>f6c005aec3744b10a71b5f73e4013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>capacidade_mensal</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>76c005aec3744b10a71b5f73e4013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tecnologia_principal</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>f2c005aec3744b10a71b5f73e4013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>papel</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>72c005aec3744b10a71b5f73e4013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cargo</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>fec005aec3744b10a71b5f73e4013124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carga</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>7ec005aec3744b10a71b5f73e4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ativo</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-14 19:07:17</sys_created_on>
+            <sys_id>fac005aec3744b10a71b5f73e4013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_colaborador" sys_domain="global" view="ef480806518803107ae8bcc27f6ead6f">de584446c3880310a71b5f73e401315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-14 19:07:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1971880_sigact_0_colaborador</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2026-04-05 18:56:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de584446c3880310a71b5f73e401315a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1971880_sigact_0_colaborador</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+            <sys_update_name>sys_ui_section_de584446c3880310a71b5f73e401315a</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2026-04-05 18:56:37</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace SIGACTeste 0" name="workspace-sigacteste-0">ef480806518803107ae8bcc27f6ead6f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

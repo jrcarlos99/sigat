@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">0924c8ca59480310e056cdc76e2b46d1</dataset>
+        <datasource display_value="Custom Portal Landing - Popular articles Datasource">0524c8cac94803104d8fd3499a1fdcd0</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 18:38:19</sys_created_on>
+        <sys_id>0d24c8ca9a48031040c6f459f9dc70cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_0d24c8ca9a48031040c6f459f9dc70cc</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 18:38:19</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>
