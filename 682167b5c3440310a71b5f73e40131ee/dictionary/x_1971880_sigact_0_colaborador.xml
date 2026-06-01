@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="60a937b5c3080310a71b5f73e40131b1" label="Colaborador" max_length="40" name="x_1971880_sigact_0_colaborador" text_index="true" type="collection">
+        <element choice="3" label="Papel" max_length="40" name="papel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="QA" sequence="3" value="qa"/>
+                <element inactive_on_update="false" label="Analista de Dados" sequence="5" value="analista_de_dados"/>
+                <element inactive_on_update="false" label="Desenvolvedor" sequence="1" value="desenvolvedor"/>
+                <element inactive_on_update="false" label="Arquiteto" sequence="0" value="arquiteto"/>
+                <element inactive_on_update="false" label="UX Designer" sequence="2" value="ux_designer"/>
+                <element inactive_on_update="false" label="Scrum Master" sequence="4" value="scrum_master"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Carga" max_length="40" name="carga" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ideal" sequence="1" value="ideal"/>
+                <element inactive_on_update="false" label="Sobrecarga" sequence="3" value="sobrecarga"/>
+                <element inactive_on_update="false" label="OK" sequence="0" value="ok"/>
+                <element inactive_on_update="false" label="Limite" sequence="2" value="limite"/>
+            </choice>
+        </element>
+        <element label="Tecnologia Principal" max_length="32" name="tecnologia_principal" reference="x_1971880_sigact_0_tecnologia" type="reference"/>
+        <element label="Capacidade Mensal" mandatory="true" max_length="38" name="capacidade_mensal" type="decimal"/>
+        <element display="true" label="Nome" mandatory="true" max_length="100" name="nome" type="string"/>
+        <element choice="3" label="Cargo" max_length="40" name="cargo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Estagiario" sequence="2" value="estagiario"/>
+                <element inactive_on_update="false" label="Concursado" sequence="0" value="concursado"/>
+                <element inactive_on_update="false" label="Contratado" sequence="1" value="contratado"/>
+            </choice>
+        </element>
+        <element label="Ativo" max_length="40" name="ativo" type="boolean"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Senioridade" mandatory="true" max_length="32" name="senioridade" reference="x_1971880_sigact_0_sigac_senioridade" type="reference"/>
+        <index name="index">
+            <element name="senioridade"/>
+        </index>
+        <index name="index2">
+            <element name="tecnologia_principal"/>
+        </index>
+    </element>
+</database>

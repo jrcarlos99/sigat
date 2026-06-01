@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="sigacteste Search Profile">6f13b11cbbb80b10ea4f1fa030eb10cb</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:50</sys_created_on>
+        <sys_id>ab13b11ce4b80b10387e101626e26dca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_stop_word_dictionary.sigacteste Search Profile</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_ab13b11ce4b80b10387e101626e26dca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:50</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

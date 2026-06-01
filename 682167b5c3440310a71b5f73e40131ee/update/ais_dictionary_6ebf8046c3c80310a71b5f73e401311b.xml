@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_1971880_sigact_0_colaborador,x_1971880_sigact_0_sigac_senioridade,x_1971880_sigact_0_projeto,x_1971880_sigact_0_alocacao,x_1971880_sigact_0_complexidade</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>sigac Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_1971880_sigact_0_sigac_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>DRAFT</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 19:28:51</sys_created_on>
+        <sys_id>6ebf8046c3c80310a71b5f73e401311b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1971880_sigact_0_sigac_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>ais_dictionary_6ebf8046c3c80310a71b5f73e401311b</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 19:28:52</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_notification_uiRoute</name>
+        <page display_value="">6313b11cfab80b1059dbcc90796451cc</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a713b11cbbb80b103931f9bd08f937b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_notification_uiRoute</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_page_property_a713b11cbbb80b103931f9bd08f937b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:51</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1971880_sigact_0.6313b11cfab80b1059dbcc90796451cc.root.chrome_notification_uiRoute</unique_name>
+        <value>cb1af195872023002941b53046cb0b4e</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_ux_page_property_a713b11cbbb80b103931f9bd08f937b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_notification_uiRoute</name><page display_value="">6313b11cfab80b1059dbcc90796451cc</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-07 23:00:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>a713b11cbbb80b103931f9bd08f937b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_notification_uiRoute</sys_name><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_update_name>sys_ux_page_property_a713b11cbbb80b103931f9bd08f937b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-07 23:00:51</sys_updated_on><type>string</type><unique_name>x_1971880_sigact_0.6313b11cfab80b1059dbcc90796451cc.root.chrome_notification_uiRoute</unique_name><value>cb1af195872023002941b53046cb0b4e</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>2008643086</payload_hash>
+        <record_name>chrome_notification_uiRoute</record_name>
+        <reverted_from/>
+        <source>03094a03c3333210a71b5f73e401315b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-03-27 20:37:09</sys_created_on>
+        <sys_id>101b71dcc3f80b10a71b5f73e40131d1</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19d3103d9080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>dc1b71dcd6f80b10ba8dc66b16c1f4d0</update_guid>
+        <update_guid_history>dc1b71dcd6f80b10ba8dc66b16c1f4d0:2008643086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:35:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>25e92929970f4c7087efdbd065aba240</sys_id>
+        <sys_metadata>a713b11cbbb80b103931f9bd08f937b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_notification_uiRoute</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_a713b11cbbb80b103931f9bd08f937b8</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_a713b11cbbb80b103931f9bd08f937b8">101b71dcc3f80b10a71b5f73e40131d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:35:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

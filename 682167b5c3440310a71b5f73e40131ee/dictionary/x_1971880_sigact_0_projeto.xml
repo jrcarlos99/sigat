@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0bfa7379c3080310a71b5f73e4013142" label="Projeto" max_length="40" name="x_1971880_sigact_0_projeto" text_index="true" type="collection">
+        <element label="Data Fim" max_length="40" name="data_fim" type="glide_date"/>
+        <element label="Descrição" max_length="200" name="descricao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Complexidade" mandatory="true" max_length="32" name="complexidade" reference="x_1971880_sigact_0_complexidade" type="reference"/>
+        <element label="Tecnologia Esperada" max_length="32" name="tecnologia_esperada" reference="x_1971880_sigact_0_tecnologia" type="reference"/>
+        <element label="Data Inicio" mandatory="true" max_length="40" name="data_inicio" type="glide_date"/>
+        <element choice="3" label="Papel Esperado" max_length="40" name="papel_esperado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scrum Master" sequence="4" value="scrum_master"/>
+                <element inactive_on_update="false" label="Desenvolvedor" sequence="1" value="desenvolvedor"/>
+                <element inactive_on_update="false" label="Arquiteto" sequence="0" value="arquiteto"/>
+                <element inactive_on_update="false" label="QA" sequence="3" value="qa"/>
+                <element inactive_on_update="false" label="Analista de Dados" sequence="5" value="analista_de_dados"/>
+                <element inactive_on_update="false" label="UX Designer" sequence="2" value="ux_designer"/>
+            </choice>
+        </element>
+        <element label="Gerente" mandatory="true" max_length="32" name="gerente" reference="x_1971880_sigact_0_colaborador" type="reference"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Desconhecido" sequence="6" value="desconhecido"/>
+                <element inactive_on_update="false" label="Interno" sequence="4" value="interno"/>
+                <element inactive_on_update="false" label="Planejamento" sequence="0" value="planejamento"/>
+                <element inactive_on_update="false" label="Concluido" sequence="2" value="concluido"/>
+                <element inactive_on_update="false" label="Suspenso" sequence="5" value="suspenso"/>
+                <element inactive_on_update="false" label="A Iniciar" sequence="7" value="a_iniciar"/>
+                <element inactive_on_update="false" label="Cancelado" sequence="3" value="cancelado"/>
+                <element inactive_on_update="false" label="Em Andamento" sequence="1" value="em_andamento"/>
+            </choice>
+        </element>
+        <element display="true" label="Nome do Projeto" mandatory="true" max_length="100" name="nome_do_projeto" type="string"/>
+        <index name="index">
+            <element name="complexidade"/>
+        </index>
+        <index name="index2">
+            <element name="gerente"/>
+        </index>
+        <index name="index3">
+            <element name="tecnologia_esperada"/>
+        </index>
+    </element>
+</database>

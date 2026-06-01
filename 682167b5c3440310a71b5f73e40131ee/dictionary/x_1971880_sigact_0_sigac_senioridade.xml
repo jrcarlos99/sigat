@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="da8367f9c3440310a71b5f73e40131f7" label="Senioridade" max_length="40" name="x_1971880_sigact_0_sigac_senioridade" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Descrição" max_length="200" name="descricao" type="string"/>
+        <element choice="3" display="true" label="Nível" mandatory="true" max_length="40" name="nivel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Junior" sequence="0" value="junior"/>
+                <element inactive_on_update="false" label="Especialista" sequence="3" value="especialista"/>
+                <element inactive_on_update="false" label="Pleno" sequence="1" value="pleno"/>
+                <element inactive_on_update="false" label="Senior" sequence="2" value="senior"/>
+                <element inactive_on_update="false" label="Master" sequence="4" value="master"/>
+            </choice>
+        </element>
+        <element label="Multiplicador de Capacidade" mandatory="true" max_length="38" name="multiplicador_de_capacidade" type="decimal"/>
+    </element>
+</database>

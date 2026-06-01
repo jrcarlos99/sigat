@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bc6a2595c3300310a71b5f73e40131e2" label="Tecnologia" max_length="40" name="x_1971880_sigact_0_tecnologia" type="collection">
+        <element label="Descrição" max_length="255" name="descricao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="2" label="Categoria" max_length="40" name="categoria" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="QA" sequence="4" value="qa"/>
+                <element inactive_on_update="false" label="Mobile" sequence="2" value="mobile"/>
+                <element inactive_on_update="false" label="UX Designer" sequence="5" value="ux_designer"/>
+                <element inactive_on_update="false" label="DevOps" sequence="3" value="devops"/>
+                <element inactive_on_update="false" label="Frontend" sequence="1" value="frontend"/>
+                <element inactive_on_update="false" label="Backend" sequence="0" value="backend"/>
+            </choice>
+        </element>
+        <element display="true" label="Nome" max_length="100" name="nome" type="string"/>
+    </element>
+</database>

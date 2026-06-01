@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="SIGAC">25bfcc0614c80310f683887ee6bd037e</page>
+        <required_translations>[ {
+  "message" : "New Alocacao",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Colaborador",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Complexidade",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Projeto",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "New Senioridade",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 19:28:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>e1bfcc0678c803100022dda5fc8a406c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_page_property_e1bfcc0678c803100022dda5fc8a406c</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 19:28:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1971880_sigact_0.25bfcc0614c80310f683887ee6bd037e.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Alocacao"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_alocacao","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_alocacao","canCreate":true}}},{"label":{"translatable":true,"message":"New Colaborador"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_colaborador","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_colaborador","canCreate":true}}},{"label":{"translatable":true,"message":"New Complexidade"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_complexidade","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_complexidade","canCreate":true}}},{"label":{"translatable":true,"message":"New Senioridade"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_sigac_senioridade","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_sigac_senioridade","canCreate":true}}},{"label":{"translatable":true,"message":"New Projeto"},"routeInfo":{"route":"record","fields":{"table":"x_1971880_sigact_0_projeto","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1971880_sigact_0_projeto","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=e1bfcc0678c803100022dda5fc8a406c"/>
+</record_update>

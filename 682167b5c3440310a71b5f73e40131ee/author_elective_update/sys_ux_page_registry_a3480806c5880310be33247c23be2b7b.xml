@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>ef4808063f880310f2e4626c0739c179</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>sigactteste</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 18:56:26</sys_created_on>
+        <sys_id>a3480806c5880310be33247c23be2b7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIGACTeste</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_page_registry_a3480806c5880310be33247c23be2b7b</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 18:56:26</sys_updated_on>
+        <title>SIGACTeste</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_ux_page_registry_a3480806c5880310be33247c23be2b7b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>ef4808063f880310f2e4626c0739c179</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>sigactteste</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>aes.creator</sys_created_by><sys_created_on>2026-04-05 18:56:26</sys_created_on><sys_id>a3480806c5880310be33247c23be2b7b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SIGACTeste</sys_name><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_update_name>sys_ux_page_registry_a3480806c5880310be33247c23be2b7b</sys_update_name><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2026-04-05 18:56:26</sys_updated_on><title>SIGACTeste</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1451614644</payload_hash>
+        <record_name>SIGACTeste</record_name>
+        <reverted_from/>
+        <source>03094a03c3333210a71b5f73e401315b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-03-27 20:37:09</sys_created_on>
+        <sys_id>de5f8006c3c80310a71b5f73e4013191</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19d3103d9080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>9e5f800656c803102e45ff2d1560eb91</update_guid>
+        <update_guid_history>9e5f800656c803102e45ff2d1560eb91:-1451614644</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 19:27:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>144121dc4cb54c9a8437dc926fb0af89</sys_id>
+        <sys_metadata>a3480806c5880310be33247c23be2b7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIGACTeste</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_a3480806c5880310be33247c23be2b7b</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_a3480806c5880310be33247c23be2b7b">de5f8006c3c80310a71b5f73e4013191</sys_update_version>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-05 19:27:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="SIGAC">a4cf0846c3c80310a71b5f73e40131ae</dashboard>
+        <dashboard_tab display_value="Projetos">3511580ac3c80310a71b5f73e4013144</dashboard_tab>
+        <layout>[{"sys_id":"ee9058c6c3c80310a71b5f73e40131e9","x":0,"y":0,"w":48,"h":28,"component_id":"7ff373544303121093711347efb8f23c","component_props":"{\"metrics\":[{\"aggregateFunction\":\"COUNT\",\"axisId\":\"primary\",\"dataSource\":\"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=\",\"id\":\"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==\",\"numberFormat\":{\"customFormat\":false}}],\"showHeader\":true,\"wrapTitle\":false,\"showLoadingIndicator\":false,\"showHeaderSeparator\":true,\"contextMenuActions\":[],\"headingLevel\":2,\"limit\":10,\"columnLimit\":0,\"maxCharLimit\":40,\"columnPreferenceKey\":\"\",\"showPersonalization\":false,\"hideDotwalk\":false,\"showColumnReorder\":true,\"showColumnGrouping\":true,\"showColumnResizing\":true,\"showColumnFiltering\":false,\"showColumnSorting\":true,\"parFilter\":\"\",\"allowAdditionalGroupByPerMetric\":false,\"groupBy\":[],\"sortBy\":null,\"sortByOrder\":\"ORDERBY\",\"followFilters\":true,\"showFilterIcon\":true,\"enableRealTimeUpdate\":false,\"enableDrilldown\":true,\"enableCustomEmptyState\":false,\"componentId\":\"b52qfqx2\",\"emptyStateIllustration\":\"no-data\",\"emptyStateHeading\":\"No data available.\",\"emptyStateHeadingLevel\":3,\"emptyStateContent\":\"There are no scores available for the selected criteria. Contact your admin for more info.\",\"emptyStateAlignment\":\"vertical-centered\",\"filterConfigurations\":\"@state.parFilters\",\"columns\":\"nome_do_projeto,complexidade,gerente,data_inicio,data_fim,status\",\"table\":\"x_1971880_sigact_0_projeto\",\"showLinks\":true,\"wrapCellContent\":\"useLineBreaksUserPref\",\"showViewAll\":false,\"showInlineEditing\":true,\"allowListPagination\":true,\"headerTitle\":\"Projetos Ativos\",\"showBorder\":true,\"dataSources\":[{\"isDatabaseView\":false,\"allowRealTime\":true,\"label\":\"Projeto\",\"sourceType\":\"table\",\"tableOrViewName\":\"x_1971880_sigact_0_projeto\",\"filterQuery\":\"\",\"preferredVisualizations\":[\"d24d53f60350de7a652caf3188a46ed2\"],\"id\":\"dGFibGV4XzE5NzE4ODBfc2lnYWN0XzBfcHJvamV0bzE3NzU0MTc1MzMxNzI=\",\"dataCategories\":[\"trend\",\"group\",\"simple\"]}],\"bareBorder\":false,\"additionalGroupByConfig\":[],\"showAdditionalGroupBySelector\":false}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-05 19:34:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3111580ac3c80310a71b5f73e4013148</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>par_dashboard_canvas_3111580ac3c80310a71b5f73e4013148</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 01:22:01</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

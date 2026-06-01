@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="SIGAC - copia">025340bbc3788350a71b5f73e40131e4</dashboard>
+        <dashboard_tab display_value="New Tab 10">c25380bbc3788350a71b5f73e4013119</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-05-18 11:51:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a5380bbc3788350a71b5f73e401311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>par_dashboard_canvas_1a5380bbc3788350a71b5f73e401311e</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-05-18 11:51:13</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>par_dashboard_canvas_1a5380bbc3788350a71b5f73e401311e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="SIGAC - copia">025340bbc3788350a71b5f73e40131e4</dashboard><dashboard_tab display_value="New Tab 10">c25380bbc3788350a71b5f73e4013119</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>aes.creator</sys_created_by><sys_created_on>2026-05-18 11:51:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1a5380bbc3788350a71b5f73e401311e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_update_name>par_dashboard_canvas_1a5380bbc3788350a71b5f73e401311e</sys_update_name><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2026-05-18 11:51:13</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-91862918</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c921e7b5c3440310a71b5f73e4013116</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-05-18 11:51:13</sys_created_on>
+        <sys_id>1a5380bbc3788350a71b5f73e4013121</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e3aed09c00000001</sys_recorded_at>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-05-18 11:51:13</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>d65380bb50788350550405c776823520</update_guid>
+        <update_guid_history>d65380bb50788350550405c776823520:-91862918</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ae5380bbc3788350a71b5f73e401318e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-05-18 11:51:14</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>037ef91a70474bda82b6506c105c7dd1</sys_id>
+        <sys_metadata>1a5380bbc3788350a71b5f73e401311e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_1a5380bbc3788350a71b5f73e401311e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_1a5380bbc3788350a71b5f73e401311e">1a5380bbc3788350a71b5f73e4013121</sys_update_version>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-05-18 11:51:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

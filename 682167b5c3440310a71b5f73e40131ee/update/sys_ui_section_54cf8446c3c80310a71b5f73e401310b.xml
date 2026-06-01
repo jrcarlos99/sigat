@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="54cf8446c3c80310a71b5f73e401310b" sys_domain="global" table="x_1971880_sigact_0_sigac_senioridade" version="3" view="workspace-sigac-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2026-04-05 19:28:59</sys_created_on>
+            <sys_id>94cf8446c3c80310a71b5f73e4013110</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_sigac_senioridade" sys_domain="global" view="e1bfcc0698c8031045460e21648cbf73">54cf8446c3c80310a71b5f73e401310b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2026-04-05 19:28:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nivel</element>
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2026-04-05 19:28:59</sys_created_on>
+            <sys_id>18cf8446c3c80310a71b5f73e401310f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_sigac_senioridade" sys_domain="global" view="e1bfcc0698c8031045460e21648cbf73">54cf8446c3c80310a71b5f73e401310b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2026-04-05 19:28:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>multiplicador_de_capacidade</element>
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2026-04-05 19:28:59</sys_created_on>
+            <sys_id>98cf8446c3c80310a71b5f73e401310e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_sigac_senioridade" sys_domain="global" view="e1bfcc0698c8031045460e21648cbf73">54cf8446c3c80310a71b5f73e401310b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2026-04-05 19:28:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>descricao</element>
+            <position>3</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2026-04-05 19:28:59</sys_created_on>
+            <sys_id>1ccf8446c3c80310a71b5f73e401310d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971880_sigact_0_sigac_senioridade" sys_domain="global" view="e1bfcc0698c8031045460e21648cbf73">54cf8446c3c80310a71b5f73e401310b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2026-04-05 19:28:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1971880_sigact_0_sigac_senioridade</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2026-04-05 19:28:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54cf8446c3c80310a71b5f73e401310b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1971880_sigact_0_sigac_senioridade</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+            <sys_update_name>sys_ui_section_54cf8446c3c80310a71b5f73e401310b</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2026-04-05 19:28:58</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace SIGAC 0" name="workspace-sigac-0">e1bfcc0698c8031045460e21648cbf73</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-14 20:05:50</sys_created_on>
+        <sys_id>a83e412ec3f44b10a71b5f73e4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971880_sigact_0_projetosteste.x_1971880_sigact_0.sigac_pmo</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_security_acl display_value="x_1971880_sigact_0_projetosteste">dc3e012ec3f44b10a71b5f73e40131fb</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a83e412ec3f44b10a71b5f73e4013101</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-14 20:05:50</sys_updated_on>
+        <sys_user_role display_value="x_1971880_sigact_0.sigac_pmo" name="x_1971880_sigact_0.sigac_pmo">9979ec0ac38c0310a71b5f73e40131b4</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_security_acl_role_a83e412ec3f44b10a71b5f73e4013101</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-14 20:05:50</sys_created_on><sys_id>a83e412ec3f44b10a71b5f73e4013101</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1971880_sigact_0_projetosteste.x_1971880_sigact_0.sigac_pmo</sys_name><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_security_acl display_value="x_1971880_sigact_0_projetosteste">dc3e012ec3f44b10a71b5f73e40131fb</sys_security_acl><sys_update_name>sys_security_acl_role_a83e412ec3f44b10a71b5f73e4013101</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-14 20:05:50</sys_updated_on><sys_user_role display_value="x_1971880_sigact_0.sigac_pmo" name="x_1971880_sigact_0.sigac_pmo">9979ec0ac38c0310a71b5f73e40131b4</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1616251810</payload_hash>
+        <record_name>x_1971880_sigact_0_projetosteste.x_1971880_sigact_0.sigac_pmo</record_name>
+        <reverted_from/>
+        <source>c921e7b5c3440310a71b5f73e4013116</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-14 20:05:50</sys_created_on>
+        <sys_id>6c3e412ec3f44b10a71b5f73e401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e28186dd00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-14 20:05:50</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2c3e412e84f44b10d08f2e2ccefeaa1e</update_guid>
+        <update_guid_history>2c3e412e84f44b10d08f2e2ccefeaa1e:-1616251810</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1971880_sigact_0_projetosteste.x_1971880_sigact_0.sigac_pmo">0ec6dd6ec3384b10a71b5f73e4013132</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-14 20:43:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>49d4e608a1e349cdb99103a0253f2071</sys_id>
+        <sys_metadata>a83e412ec3f44b10a71b5f73e4013101</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971880_sigact_0_projetosteste.x_1971880_sigact_0.sigac_pmo</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent display_value="">dc3e012ec3f44b10a71b5f73e40131fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a83e412ec3f44b10a71b5f73e4013101</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a83e412ec3f44b10a71b5f73e4013101">6c3e412ec3f44b10a71b5f73e401311f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-14 20:43:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

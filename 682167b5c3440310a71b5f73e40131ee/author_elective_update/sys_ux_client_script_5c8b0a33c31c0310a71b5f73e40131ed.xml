@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Analytics center">088b0a33c31c0310a71b5f73e401319e</macroponent>
+        <name>viewport_cxq/NODE__items_cl6xi9ecg016c3b7teshxauno_conditional</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[
+			/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return !api.state.isDMAnalyticsPluginInstalled;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-24 01:14:42</sys_created_on>
+        <sys_id>5c8b0a33c31c0310a71b5f73e40131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_cxq/NODE__items_cl6xi9ecg016c3b7teshxauno_conditional</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_client_script_5c8b0a33c31c0310a71b5f73e40131ed</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-24 01:14:42</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_ux_client_script_5c8b0a33c31c0310a71b5f73e40131ed</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Analytics center"&gt;088b0a33c31c0310a71b5f73e401319e&lt;/macroponent&gt;&lt;name&gt;viewport_cxq/NODE__items_cl6xi9ecg016c3b7teshxauno_conditional&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[
+			/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return !api.state.isDMAnalyticsPluginInstalled;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aes.creator&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-24 01:14:42&lt;/sys_created_on&gt;&lt;sys_id&gt;5c8b0a33c31c0310a71b5f73e40131ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;viewport_cxq/NODE__items_cl6xi9ecg016c3b7teshxauno_conditional&lt;/sys_name&gt;&lt;sys_package display_value="SIGACTeste" source="x_1971880_sigact_0"&gt;682167b5c3440310a71b5f73e40131ee&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SIGACTeste"&gt;682167b5c3440310a71b5f73e40131ee&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_5c8b0a33c31c0310a71b5f73e40131ed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aes.creator&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-24 01:14:42&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>723187809</payload_hash>
+        <record_name>viewport_cxq/NODE__items_cl6xi9ecg016c3b7teshxauno_conditional</record_name>
+        <reverted_from/>
+        <source>c921e7b5c3440310a71b5f73e4013116</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-24 01:14:42</sys_created_on>
+        <sys_id>d88b0a33c31c0310a71b5f73e40131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dbd0dab2d0000001</sys_recorded_at>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-24 01:14:42</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>988b0a333f1c0310e7015bdbbc0e0bf0</update_guid>
+        <update_guid_history>988b0a333f1c0310e7015bdbbc0e0bf0:723187809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2026-04-24 01:32:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>3ca7c019cfa64eba94566e210806e764</sys_id>
+        <sys_metadata>5c8b0a33c31c0310a71b5f73e40131ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_cxq/NODE__items_cl6xi9ecg016c3b7teshxauno_conditional</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_5c8b0a33c31c0310a71b5f73e40131ed</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_5c8b0a33c31c0310a71b5f73e40131ed">d88b0a33c31c0310a71b5f73e40131f1</sys_update_version>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2026-04-24 01:32:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

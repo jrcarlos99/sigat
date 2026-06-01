@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e31ceff9c3840310a71b5f73e40131c7" label="Complexidade" max_length="40" name="x_1971880_sigact_0_complexidade" text_index="true" type="collection">
+        <element label="Descrição" max_length="200" name="descricao" type="string"/>
+        <element label="Peso" mandatory="true" max_length="38" name="peso" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Senioridade Minima" mandatory="true" max_length="32" name="senioridade_minima" reference="x_1971880_sigact_0_sigac_senioridade" type="reference"/>
+        <element choice="3" display="true" label="Categoria" mandatory="true" max_length="40" name="categoria" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alta" sequence="2" value="alta"/>
+                <element inactive_on_update="false" label="Media" sequence="1" value="media"/>
+                <element inactive_on_update="false" label="Baixa" sequence="0" value="baixa"/>
+                <element inactive_on_update="false" label="Critica" sequence="3" value="critica"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="senioridade_minima"/>
+        </index>
+    </element>
+</database>

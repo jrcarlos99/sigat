@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>A default view for SIGACTeste generated</description>
+        <name>view</name>
+        <page display_value="">6313b11cfab80b1059dbcc90796451cc</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:00:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>af13b11c1eb80b1047844bce31d803b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_ux_page_property_af13b11c1eb80b1047844bce31d803b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:00:51</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1971880_sigact_0.6313b11cfab80b1059dbcc90796451cc.root.view</unique_name>
+        <value>workspace-sigacteste-1</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</application>
+        <file_path/>
+        <instance_id>23067d2debbe4250cbbffceacad0cd90</instance_id>
+        <instance_name>dev275330</instance_name>
+        <name>sys_ux_page_property_af13b11c1eb80b1047844bce31d803b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>A default view for SIGACTeste generated</description><name>view</name><page display_value="">6313b11cfab80b1059dbcc90796451cc</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-07 23:00:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>af13b11c1eb80b1047844bce31d803b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>view</sys_name><sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package><sys_policy/><sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope><sys_update_name>sys_ux_page_property_af13b11c1eb80b1047844bce31d803b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-07 23:00:51</sys_updated_on><type>string</type><unique_name>x_1971880_sigact_0.6313b11cfab80b1059dbcc90796451cc.root.view</unique_name><value>workspace-sigacteste-1</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-37549046</payload_hash>
+        <record_name>view</record_name>
+        <reverted_from/>
+        <source>03094a03c3333210a71b5f73e401315b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-03-27 20:37:09</sys_created_on>
+        <sys_id>d41bb1dcc3f80b10a71b5f73e4013110</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19d3103d9080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>941bb1dc0af80b1057ecf70da7880b10</update_guid>
+        <update_guid_history>941bb1dc0af80b1057ecf70da7880b10:-37549046</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-07 23:35:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>0015abee2116409a8b31ec1cfaa24fc9</sys_id>
+        <sys_metadata>af13b11c1eb80b1047844bce31d803b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_scope_delete display_value="">4e44cb15776e4dfaa903af8ea667e539</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_af13b11c1eb80b1047844bce31d803b8</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_af13b11c1eb80b1047844bce31d803b8">d41bb1dcc3f80b10a71b5f73e4013110</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-07 23:35:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
