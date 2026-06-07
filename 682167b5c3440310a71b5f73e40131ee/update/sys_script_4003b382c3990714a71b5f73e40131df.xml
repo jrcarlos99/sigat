@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1971880_sigact_0_alocacao</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calcular Carga Colaborador</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+
+    var colaboradorSysId = current.getValue('colaborador');
+    if (!colaboradorSysId) return;
+
+    // 1. Buscar capacidade mensal do colaborador
+    var grColab = new GlideRecord('x_1971880_sigact_0_colaborador');
+    if (!grColab.get(colaboradorSysId)) return;
+
+    var capacidade = parseFloat(grColab.getValue('capacidade_mensal')) || 0;
+    if (capacidade === 0) return;
+
+    // 2. Somar percentual de todas as alocações ATIVAS do colaborador
+    var grAloc = new GlideRecord('x_1971880_sigact_0_alocacao');
+    grAloc.addQuery('colaborador', colaboradorSysId);
+    grAloc.addQuery('status', 'ativa');
+    grAloc.query();
+
+    var totalPercentual = 0;
+    while (grAloc.next()) {
+        totalPercentual += parseFloat(grAloc.getValue('percentual_alocacao')) || 0;
+    }
+
+    // 3. Calcular proporção em relação à capacidade
+    var proporcao = totalPercentual / capacidade * 100;
+
+    // 4. Determinar o valor de Carga
+    var carga;
+    if (proporcao <= 80) {
+        carga = 'ok';
+    } else if (proporcao < 100) {
+        carga = 'ideal';
+    } else if (proporcao === 100) {
+        carga = 'limite';
+    } else {
+        carga = 'sobrecarga';
+    }
+
+    // 5. Atualizar campo Carga no Colaborador
+    var nomeColaborador = grColab.getDisplayValue('nome');
+    grColab.setValue('carga', carga);
+    grColab.update();
+
+    // 6. Notificação visual
+    var percentFormatado = proporcao.toFixed(0) + '%';
+    var cargaLabel = carga.charAt(0).toUpperCase() + carga.slice(1);
+    var msg = 'Alocação registrada. Carga atual de ' + nomeColaborador + ': ' + cargaLabel + ' (' + percentFormatado + ')';
+
+    if (carga === 'sobrecarga') {
+        gs.addErrorMessage('⚠️ Atenção! Carga atual de ' + nomeColaborador + ': Sobrecarga (' + percentFormatado + ')');
+    } else {
+        gs.addInfoMessage(msg);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-07 15:28:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4003b382c3990714a71b5f73e40131df</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calcular Carga Colaborador</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SIGACTeste" source="x_1971880_sigact_0">682167b5c3440310a71b5f73e40131ee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SIGACTeste">682167b5c3440310a71b5f73e40131ee</sys_scope>
+        <sys_update_name>sys_script_4003b382c3990714a71b5f73e40131df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-07 15:52:42</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4003b382c3990714a71b5f73e40131df"/>
+</record_update>
